@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_19_135954) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_19_171843) do
   create_table "active_admin_comments", force: :cascade do |t|
     t.integer "author_id"
     t.string "author_type"
@@ -90,9 +90,11 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_19_135954) do
 
   create_table "merch_items", force: :cascade do |t|
     t.string "badge"
+    t.string "buy_url"
     t.datetime "created_at", null: false
     t.integer "position"
     t.string "price"
+    t.string "stripe_button_id"
     t.string "subtitle"
     t.string "title"
     t.datetime "updated_at", null: false

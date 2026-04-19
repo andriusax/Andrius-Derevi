@@ -1,3 +1,9 @@
+<% if @merch_items.any?(&:stripe_button_id?) %>
+  <% content_for :head do %>
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  <% end %>
+<% end %>
+
 <div class="page">
   <div class="page-head">
     <h1>Store</h1>
@@ -6,9 +12,14 @@
 
   <div class="store-grid">
     <% @merch_items.each_with_index do |item, i| %>
-      <div class="store-item">
+      <% modal_id = "store-modal-#{item.id}" %>
+      <div class="store-item" data-controller="store" data-store-modal-id-value="<%= modal_id %>"<% if item.stripe_button_id.present? %> data-action="click->store#open"<% end %>>
         <div class="store-cover">
-          <div class="ph-label">[ Product shot ]</div>
+          <% if item.cover_image.attached? %>
+            <%= image_tag item.cover_image, alt: item.title %>
+          <% else %>
+            <div class="ph-label">[ Product shot ]</div>
+          <% end %>
           <% if item.badge.present? %>
             <div class="badge"><%= item.badge %></div>
           <% end %>
@@ -20,8 +31,24 @@
         <div class="store-title"><%= item.title %></div>
         <div class="store-meta">
           <span class="store-price"><%= item.price %></span>
-          <span>Add to cart ↗</span>
+          <span><%= item.stripe_button_id.present? ? "Buy ↗" : "Coming soon" %></span>
         </div>
+
+        <% if item.stripe_button_id.present? %>
+          <div id="<%= modal_id %>" class="store-modal" hidden>
+            <div class="store-modal-backdrop" data-action="click->store#close">
+              <div class="store-modal-box" data-action="click.stop">
+                  <div class="store-modal-title"><%= item.title %></div>
+                <div class="store-modal-price"><%= item.price %></div>
+                <stripe-buy-button
+                  buy-button-id="<%= item.stripe_button_id %>"
+                  publishable-key="<%= ENV['STRIPE_PUBLISHABLE_KEY'] %>">
+                </stripe-buy-button>
+                <button class="store-modal-close" data-action="click->store#close">✕ Close</button>
+              </div>
+            </div>
+          </div>
+        <% end %>
       </div>
     <% end %>
   </div>

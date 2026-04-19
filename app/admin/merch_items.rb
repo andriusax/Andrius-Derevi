@@ -1,5 +1,5 @@
 ActiveAdmin.register MerchItem do
-  permit_params :title, :subtitle, :price, :badge, :position, :cover_image
+  permit_params :title, :subtitle, :price, :badge, :position, :cover_image, :buy_url, :stripe_button_id
 
   controller do
     before_action only: [:update] do
@@ -27,6 +27,8 @@ ActiveAdmin.register MerchItem do
       f.input :subtitle, hint: "e.g. LP — 180g · Green"
       f.input :price, hint: "e.g. €32"
       f.input :badge, hint: "Optional label, e.g. New, LTD"
+      f.input :buy_url, hint: "Stripe payment link, e.g. https://buy.stripe.com/..."
+      f.input :stripe_button_id, hint: "Stripe Buy Button ID, e.g. buy_btn_xxx (from Stripe dashboard)"
       f.input :cover_image, as: :file, hint: f.object.cover_image.attached? ? image_tag(f.object.cover_image, style: "height: 80px; width: auto; display: block; margin-bottom: 4px; border-radius: 4px;") + "Upload to replace".html_safe : "Upload product photo"
     end
     f.actions
