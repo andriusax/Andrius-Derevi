@@ -1,6 +1,12 @@
 ActiveAdmin.register Release do
   permit_params :title, :artist, :year, :format, :fill, :image, :listen_url, :position, :cover_image
 
+  controller do
+    before_action only: [:update] do
+      params[:release].delete(:cover_image) if params[:release][:cover_image].blank?
+    end
+  end
+
   index do
     selectable_column
     column :position

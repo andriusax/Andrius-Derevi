@@ -1,6 +1,12 @@
 ActiveAdmin.register MerchItem do
   permit_params :title, :subtitle, :price, :badge, :position, :cover_image
 
+  controller do
+    before_action only: [:update] do
+      params[:merch_item].delete(:cover_image) if params[:merch_item][:cover_image].blank?
+    end
+  end
+
   index do
     selectable_column
     column :position

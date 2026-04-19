@@ -1,6 +1,12 @@
 ActiveAdmin.register CarouselImage do
   permit_params :position, :alt_text, :active, :image
 
+  controller do
+    before_action only: [:update] do
+      params[:carousel_image].delete(:image) if params[:carousel_image][:image].blank?
+    end
+  end
+
   index do
     selectable_column
     column :position

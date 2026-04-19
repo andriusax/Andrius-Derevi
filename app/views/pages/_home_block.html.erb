@@ -1,23 +1,39 @@
-<div class="home-block home-block--<%= block.image_size %> home-block--<%= block.image_position %>">
-  <% if block.image.attached? %>
-    <div class="home-block-image">
-      <%= image_tag block.image, alt: block.title %>
+<% has_text = block.title.present? || block.subtitle.present? || block.body.present? %>
+<% custom_width = block.image_width.present? && block.image_position != "center" %>
+<% stacked = (block.image_size == "large" && !custom_width) || block.image_position == "center" %>
+<% show_text_first = stacked ? block.text_position == "above" : block.image_position == "right" %>
+<% container_style = if custom_width
+  block.image_position == "right" ? "grid-template-columns: 1fr #{block.image_width}%;" : "grid-template-columns: #{block.image_width}% 1fr;"
+end %>
+
+<div class="home-block home-block--<%= block.image_size %> home-block--<%= block.image_position %>" <%= "style=\"#{container_style}\"".html_safe if container_style %>>
+
+  <% if has_text && show_text_first %>
+    <div class="home-block-text">
+      <% if block.subtitle.present? %><p class="home-block-subtitle mono"><%= block.subtitle %></p><% end %>
+      <% if block.title.present? %><h2 class="home-block-title"><%= block.title %></h2><% end %>
+      <% if block.body.present? %><div class="home-block-body"><%= simple_format block.body %></div><% end %>
     </div>
   <% end %>
 
-  <% if block.title.present? || block.subtitle.present? || block.body.present? %>
-    <div class="home-block-text">
-      <% if block.subtitle.present? %>
-        <p class="home-block-subtitle mono"><%= block.subtitle %></p>
-      <% end %>
-      <% if block.title.present? %>
-        <h2 class="home-block-title"><%= block.title %></h2>
-      <% end %>
-      <% if block.body.present? %>
-        <div class="home-block-body">
-          <%= simple_format block.body %>
-        </div>
+  <% if block.image.attached? %>
+    <div class="home-block-image">
+      <% if block.link.present? %>
+        <a href="<%= block.link %>" target="_blank" rel="noopener noreferrer">
+          <%= image_tag block.image, alt: block.title %>
+        </a>
+      <% else %>
+        <%= image_tag block.image, alt: block.title %>
       <% end %>
     </div>
   <% end %>
+
+  <% if has_text && !show_text_first %>
+    <div class="home-block-text">
+      <% if block.subtitle.present? %><p class="home-block-subtitle mono"><%= block.subtitle %></p><% end %>
+      <% if block.title.present? %><h2 class="home-block-title"><%= block.title %></h2><% end %>
+      <% if block.body.present? %><div class="home-block-body"><%= simple_format block.body %></div><% end %>
+    </div>
+  <% end %>
+
 </div>

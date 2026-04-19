@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_19_122327) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_19_135954) do
   create_table "active_admin_comments", force: :cascade do |t|
     t.integer "author_id"
     t.string "author_type"
@@ -78,9 +78,12 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_19_122327) do
     t.datetime "created_at", null: false
     t.string "image_position"
     t.string "image_size"
+    t.integer "image_width"
+    t.string "link"
     t.integer "position"
     t.boolean "published", default: true, null: false
     t.string "subtitle"
+    t.string "text_position"
     t.string "title"
     t.datetime "updated_at", null: false
   end
