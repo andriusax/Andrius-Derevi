@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get "videos",      to: "pages#videos"
   get "lessons",     to: "pages#lessons"
   get "store",       to: "pages#store"
-  get "contact",     to: "pages#contact"
+  get  "contact",    to: "pages#contact"
+  post "contact",    to: "pages#contact_submit"
 end
