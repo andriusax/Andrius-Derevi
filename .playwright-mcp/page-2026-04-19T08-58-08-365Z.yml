@@ -1,0 +1,388 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Andrius Dereviancenko" [level=1] [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Dashboard" [ref=e7] [cursor=pointer]:
+          - /url: /admin/dashboard
+      - listitem [ref=e8]:
+        - link "Admin Users" [ref=e9] [cursor=pointer]:
+          - /url: /admin/admin_users
+      - listitem [ref=e10]:
+        - link "Comments" [ref=e11] [cursor=pointer]:
+          - /url: /admin/comments
+      - listitem [ref=e12]:
+        - link "Merch Items" [ref=e13] [cursor=pointer]:
+          - /url: /admin/merch_items
+      - listitem [ref=e14]:
+        - link "Releases" [ref=e15] [cursor=pointer]:
+          - /url: /admin/releases
+      - listitem [ref=e16]:
+        - link "Shows" [ref=e17] [cursor=pointer]:
+          - /url: /admin/shows
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "admin@andriusd.com" [ref=e20] [cursor=pointer]:
+          - /url: /admin/admin_users/1
+      - listitem [ref=e21]:
+        - link "Logout" [ref=e22] [cursor=pointer]:
+          - /url: /admin/logout
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - link "Admin" [ref=e26] [cursor=pointer]:
+          - /url: /admin
+        - text: /
+      - heading "Shows" [level=2] [ref=e27]
+    - link "New Show" [ref=e31] [cursor=pointer]:
+      - /url: /admin/shows/new
+  - generic [ref=e32]:
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - link "Batch Actions" [ref=e38] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Delete Selected" [ref=e42] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e43]:
+        - table [ref=e47]:
+          - rowgroup [ref=e48]:
+            - row "Performed On Band Venue City Status Sold Out When" [ref=e49]:
+              - columnheader [ref=e50]:
+                - checkbox [ref=e53]
+              - columnheader "Performed On" [ref=e54]:
+                - link "Performed On" [ref=e55] [cursor=pointer]:
+                  - /url: /admin/shows?order=performed_on_desc
+              - columnheader "Band" [ref=e56]:
+                - link "Band" [ref=e57] [cursor=pointer]:
+                  - /url: /admin/shows?order=band_desc
+              - columnheader "Venue" [ref=e58]:
+                - link "Venue" [ref=e59] [cursor=pointer]:
+                  - /url: /admin/shows?order=venue_desc
+              - columnheader "City" [ref=e60]:
+                - link "City" [ref=e61] [cursor=pointer]:
+                  - /url: /admin/shows?order=city_desc
+              - columnheader "Status" [ref=e62]:
+                - link "Status" [ref=e63] [cursor=pointer]:
+                  - /url: /admin/shows?order=status_desc
+              - columnheader "Sold Out" [ref=e64]:
+                - link "Sold Out" [ref=e65] [cursor=pointer]:
+                  - /url: /admin/shows?order=sold_out_desc
+              - columnheader "When" [ref=e66]
+              - columnheader [ref=e67]
+          - rowgroup [ref=e68]:
+            - row "January 18, 2026 Foon Splendor Amsterdam, NL No Past ViewEditDelete" [ref=e69]:
+              - cell [ref=e70]:
+                - checkbox [ref=e72]
+              - cell "January 18, 2026" [ref=e73]
+              - cell "Foon" [ref=e74]
+              - cell "Splendor" [ref=e75]
+              - cell "Amsterdam, NL" [ref=e76]
+              - cell [ref=e77]
+              - cell "No" [ref=e78]
+              - cell "Past" [ref=e79]
+              - cell "ViewEditDelete" [ref=e80]:
+                - generic [ref=e81]:
+                  - link "View" [ref=e82] [cursor=pointer]:
+                    - /url: /admin/shows/24
+                  - link "Edit" [ref=e83] [cursor=pointer]:
+                    - /url: /admin/shows/24/edit
+                  - link "Delete" [ref=e84] [cursor=pointer]:
+                    - /url: /admin/shows/24
+            - row "February 05, 2026 Litterjug Improv Fest Copenhagen, DK No Past ViewEditDelete" [ref=e85]:
+              - cell [ref=e86]:
+                - checkbox [ref=e88]
+              - cell "February 05, 2026" [ref=e89]
+              - cell "Litterjug" [ref=e90]
+              - cell "Improv Fest" [ref=e91]
+              - cell "Copenhagen, DK" [ref=e92]
+              - cell [ref=e93]
+              - cell "No" [ref=e94]
+              - cell "Past" [ref=e95]
+              - cell "ViewEditDelete" [ref=e96]:
+                - generic [ref=e97]:
+                  - link "View" [ref=e98] [cursor=pointer]:
+                    - /url: /admin/shows/23
+                  - link "Edit" [ref=e99] [cursor=pointer]:
+                    - /url: /admin/shows/23/edit
+                  - link "Delete" [ref=e100] [cursor=pointer]:
+                    - /url: /admin/shows/23
+            - row "March 08, 2026 Solo Zaal 100 Amsterdam, NL No Past ViewEditDelete" [ref=e101]:
+              - cell [ref=e102]:
+                - checkbox [ref=e104]
+              - cell "March 08, 2026" [ref=e105]
+              - cell "Solo" [ref=e106]
+              - cell "Zaal 100" [ref=e107]
+              - cell "Amsterdam, NL" [ref=e108]
+              - cell [ref=e109]
+              - cell "No" [ref=e110]
+              - cell "Past" [ref=e111]
+              - cell "ViewEditDelete" [ref=e112]:
+                - generic [ref=e113]:
+                  - link "View" [ref=e114] [cursor=pointer]:
+                    - /url: /admin/shows/22
+                  - link "Edit" [ref=e115] [cursor=pointer]:
+                    - /url: /admin/shows/22/edit
+                  - link "Delete" [ref=e116] [cursor=pointer]:
+                    - /url: /admin/shows/22
+            - row "March 13, 2026 Owl Man Zaal 100 Amsterdam, NL No Past ViewEditDelete" [ref=e117]:
+              - cell [ref=e118]:
+                - checkbox [ref=e120]
+              - cell "March 13, 2026" [ref=e121]
+              - cell "Owl Man" [ref=e122]
+              - cell "Zaal 100" [ref=e123]
+              - cell "Amsterdam, NL" [ref=e124]
+              - cell [ref=e125]
+              - cell "No" [ref=e126]
+              - cell "Past" [ref=e127]
+              - cell "ViewEditDelete" [ref=e128]:
+                - generic [ref=e129]:
+                  - link "View" [ref=e130] [cursor=pointer]:
+                    - /url: /admin/shows/21
+                  - link "Edit" [ref=e131] [cursor=pointer]:
+                    - /url: /admin/shows/21/edit
+                  - link "Delete" [ref=e132] [cursor=pointer]:
+                    - /url: /admin/shows/21
+            - row "March 13, 2026 Solo Tafel 89 Amsterdam, NL No Past ViewEditDelete" [ref=e133]:
+              - cell [ref=e134]:
+                - checkbox [ref=e136]
+              - cell "March 13, 2026" [ref=e137]
+              - cell "Solo" [ref=e138]
+              - cell "Tafel 89" [ref=e139]
+              - cell "Amsterdam, NL" [ref=e140]
+              - cell [ref=e141]
+              - cell "No" [ref=e142]
+              - cell "Past" [ref=e143]
+              - cell "ViewEditDelete" [ref=e144]:
+                - generic [ref=e145]:
+                  - link "View" [ref=e146] [cursor=pointer]:
+                    - /url: /admin/shows/20
+                  - link "Edit" [ref=e147] [cursor=pointer]:
+                    - /url: /admin/shows/20/edit
+                  - link "Delete" [ref=e148] [cursor=pointer]:
+                    - /url: /admin/shows/20
+            - row "March 14, 2026 Berima Amo De Roma Antwerp, BE No Past ViewEditDelete" [ref=e149]:
+              - cell [ref=e150]:
+                - checkbox [ref=e152]
+              - cell "March 14, 2026" [ref=e153]
+              - cell "Berima Amo" [ref=e154]
+              - cell "De Roma" [ref=e155]
+              - cell "Antwerp, BE" [ref=e156]
+              - cell [ref=e157]
+              - cell "No" [ref=e158]
+              - cell "Past" [ref=e159]
+              - cell "ViewEditDelete" [ref=e160]:
+                - generic [ref=e161]:
+                  - link "View" [ref=e162] [cursor=pointer]:
+                    - /url: /admin/shows/19
+                  - link "Edit" [ref=e163] [cursor=pointer]:
+                    - /url: /admin/shows/19/edit
+                  - link "Delete" [ref=e164] [cursor=pointer]:
+                    - /url: /admin/shows/19
+            - row "June 13, 2026 Lublin, PL No Upcoming ViewEditDelete" [ref=e165]:
+              - cell [ref=e166]:
+                - checkbox [ref=e168]
+              - cell "June 13, 2026" [ref=e169]
+              - cell [ref=e170]
+              - cell [ref=e171]
+              - cell "Lublin, PL" [ref=e172]
+              - cell [ref=e173]
+              - cell "No" [ref=e174]
+              - cell "Upcoming" [ref=e175]
+              - cell "ViewEditDelete" [ref=e176]:
+                - generic [ref=e177]:
+                  - link "View" [ref=e178] [cursor=pointer]:
+                    - /url: /admin/shows/18
+                  - link "Edit" [ref=e179] [cursor=pointer]:
+                    - /url: /admin/shows/18/edit
+                  - link "Delete" [ref=e180] [cursor=pointer]:
+                    - /url: /admin/shows/18
+            - row "May 24, 2026 Einam Ensemble Zaal 100 Amsterdam, NL No Upcoming ViewEditDelete" [ref=e181]:
+              - cell [ref=e182]:
+                - checkbox [ref=e184]
+              - cell "May 24, 2026" [ref=e185]
+              - cell "Einam Ensemble" [ref=e186]
+              - cell "Zaal 100" [ref=e187]
+              - cell "Amsterdam, NL" [ref=e188]
+              - cell [ref=e189]
+              - cell "No" [ref=e190]
+              - cell "Upcoming" [ref=e191]
+              - cell "ViewEditDelete" [ref=e192]:
+                - generic [ref=e193]:
+                  - link "View" [ref=e194] [cursor=pointer]:
+                    - /url: /admin/shows/17
+                  - link "Edit" [ref=e195] [cursor=pointer]:
+                    - /url: /admin/shows/17/edit
+                  - link "Delete" [ref=e196] [cursor=pointer]:
+                    - /url: /admin/shows/17
+            - row "April 26, 2026 Solo Pleinkamer Amsterdam, NL No Upcoming ViewEditDelete" [ref=e197]:
+              - cell [ref=e198]:
+                - checkbox [ref=e200]
+              - cell "April 26, 2026" [ref=e201]
+              - cell "Solo" [ref=e202]
+              - cell "Pleinkamer" [ref=e203]
+              - cell "Amsterdam, NL" [ref=e204]
+              - cell [ref=e205]
+              - cell "No" [ref=e206]
+              - cell "Upcoming" [ref=e207]
+              - cell "ViewEditDelete" [ref=e208]:
+                - generic [ref=e209]:
+                  - link "View" [ref=e210] [cursor=pointer]:
+                    - /url: /admin/shows/16
+                  - link "Edit" [ref=e211] [cursor=pointer]:
+                    - /url: /admin/shows/16/edit
+                  - link "Delete" [ref=e212] [cursor=pointer]:
+                    - /url: /admin/shows/16
+            - row "March 22, 2026 12 Tribes of Mars Pleinkamer Amsterdam, NL No Past ViewEditDelete" [ref=e213]:
+              - cell [ref=e214]:
+                - checkbox [ref=e216]
+              - cell "March 22, 2026" [ref=e217]
+              - cell "12 Tribes of Mars" [ref=e218]
+              - cell "Pleinkamer" [ref=e219]
+              - cell "Amsterdam, NL" [ref=e220]
+              - cell [ref=e221]
+              - cell "No" [ref=e222]
+              - cell "Past" [ref=e223]
+              - cell "ViewEditDelete" [ref=e224]:
+                - generic [ref=e225]:
+                  - link "View" [ref=e226] [cursor=pointer]:
+                    - /url: /admin/shows/15
+                  - link "Edit" [ref=e227] [cursor=pointer]:
+                    - /url: /admin/shows/15/edit
+                  - link "Delete" [ref=e228] [cursor=pointer]:
+                    - /url: /admin/shows/15
+            - row "April 04, 2026 12 Tribes of Mars Bimhuis Amsterdam, NL No Past ViewEditDelete" [ref=e229]:
+              - cell [ref=e230]:
+                - checkbox [ref=e232]
+              - cell "April 04, 2026" [ref=e233]
+              - cell "12 Tribes of Mars" [ref=e234]
+              - cell "Bimhuis" [ref=e235]
+              - cell "Amsterdam, NL" [ref=e236]
+              - cell [ref=e237]
+              - cell "No" [ref=e238]
+              - cell "Past" [ref=e239]
+              - cell "ViewEditDelete" [ref=e240]:
+                - generic [ref=e241]:
+                  - link "View" [ref=e242] [cursor=pointer]:
+                    - /url: /admin/shows/14
+                  - link "Edit" [ref=e243] [cursor=pointer]:
+                    - /url: /admin/shows/14/edit
+                  - link "Delete" [ref=e244] [cursor=pointer]:
+                    - /url: /admin/shows/14
+            - row "May 03, 2026 12 Tribes of Mars Ruigoord Amsterdam, NL No Upcoming ViewEditDelete" [ref=e245]:
+              - cell [ref=e246]:
+                - checkbox [ref=e248]
+              - cell "May 03, 2026" [ref=e249]
+              - cell "12 Tribes of Mars" [ref=e250]
+              - cell "Ruigoord" [ref=e251]
+              - cell "Amsterdam, NL" [ref=e252]
+              - cell [ref=e253]
+              - cell "No" [ref=e254]
+              - cell "Upcoming" [ref=e255]
+              - cell "ViewEditDelete" [ref=e256]:
+                - generic [ref=e257]:
+                  - link "View" [ref=e258] [cursor=pointer]:
+                    - /url: /admin/shows/13
+                  - link "Edit" [ref=e259] [cursor=pointer]:
+                    - /url: /admin/shows/13/edit
+                  - link "Delete" [ref=e260] [cursor=pointer]:
+                    - /url: /admin/shows/13
+            - row "April 17, 2026 12 Tribes of Mars Nieuwe Anita Amsterdam, NL No Past ViewEditDelete" [ref=e261]:
+              - cell [ref=e262]:
+                - checkbox [ref=e264]
+              - cell "April 17, 2026" [ref=e265]
+              - cell "12 Tribes of Mars" [ref=e266]
+              - cell "Nieuwe Anita" [ref=e267]
+              - cell "Amsterdam, NL" [ref=e268]
+              - cell [ref=e269]
+              - cell "No" [ref=e270]
+              - cell "Past" [ref=e271]
+              - cell "ViewEditDelete" [ref=e272]:
+                - generic [ref=e273]:
+                  - link "View" [ref=e274] [cursor=pointer]:
+                    - /url: /admin/shows/12
+                  - link "Edit" [ref=e275] [cursor=pointer]:
+                    - /url: /admin/shows/12/edit
+                  - link "Delete" [ref=e276] [cursor=pointer]:
+                    - /url: /admin/shows/12
+        - generic [ref=e277]:
+          - generic [ref=e278]: Displaying all 13 Shows
+          - generic [ref=e279]:
+            - text: "Download:"
+            - link "CSV" [ref=e280] [cursor=pointer]:
+              - /url: /admin/shows.csv
+            - link "XML" [ref=e281] [cursor=pointer]:
+              - /url: /admin/shows.xml
+            - link "JSON" [ref=e282] [cursor=pointer]:
+              - /url: /admin/shows.json
+    - generic [ref=e284]:
+      - heading "Filters" [level=3] [ref=e285]
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - generic [ref=e289]: Venue
+          - combobox [ref=e290]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Venue" [ref=e291]
+        - generic [ref=e292]:
+          - generic [ref=e293]: City
+          - combobox [ref=e294]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "City" [ref=e295]
+        - generic [ref=e296]:
+          - generic [ref=e297]: Status
+          - combobox [ref=e298]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Status" [ref=e299]
+        - generic [ref=e300]:
+          - generic [ref=e301]: Sold out
+          - combobox "Sold out" [ref=e302]:
+            - option "Any" [selected]
+            - option "Yes"
+            - option "No"
+        - generic [ref=e303]:
+          - generic [ref=e304]: Ticket url
+          - combobox [ref=e305]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Ticket url" [ref=e306]
+        - generic [ref=e307]:
+          - generic [ref=e308]: Created at
+          - textbox "From" [ref=e309]
+          - textbox "To" [ref=e310]
+        - generic [ref=e311]:
+          - generic [ref=e312]: Updated at
+          - textbox "From" [ref=e313]
+          - textbox "To" [ref=e314]
+        - generic [ref=e315]:
+          - generic [ref=e316]: Band
+          - combobox [ref=e317]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Band" [ref=e318]
+        - generic [ref=e319]:
+          - generic [ref=e320]: Performed on
+          - textbox "From" [ref=e321]
+          - textbox "To" [ref=e322]
+        - generic [ref=e323]:
+          - button "Filter" [ref=e324]
+          - link "Clear Filters" [ref=e325] [cursor=pointer]:
+            - /url: "#"
+  - paragraph [ref=e327]:
+    - text: Powered by
+    - link "Active Admin" [ref=e328] [cursor=pointer]:
+      - /url: https://activeadmin.info
+    - text: 3.5.1

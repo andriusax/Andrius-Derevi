@@ -1,0 +1,22 @@
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[data-method="delete"]');
+  if (!link) return;
+  e.preventDefault();
+  var msg = link.dataset.confirm;
+  if (msg && !confirm(msg)) return;
+  var form = document.createElement('form');
+  form.method = 'POST';
+  form.action = link.href;
+  var csrf = document.createElement('input');
+  csrf.type = 'hidden';
+  csrf.name = 'authenticity_token';
+  csrf.value = document.querySelector('meta[name="csrf-token"]').content;
+  var method = document.createElement('input');
+  method.type = 'hidden';
+  method.name = '_method';
+  method.value = 'delete';
+  form.appendChild(csrf);
+  form.appendChild(method);
+  document.body.appendChild(form);
+  form.submit();
+});

@@ -1,0 +1,68 @@
+/* =========================================================
+   Andrius Dereviancenko — Portfolio
+   Brutalist / experimental, warm-dark palette
+   ========================================================= */
+
+:root {
+  --bg: #0e0a07;
+  --bg-raised: #17110c;
+  --bg-panel: #1f1710;
+  --ink: #ebe3d6;
+  --ink-dim: #a89a84;
+  --ink-faint: #6a5e4e;
+  --rule: #2a1f16;
+  --rule-strong: #4a382a;
+  --ember: #c2410c;
+  --ember-bright: #ea580c;
+  --oxblood: #7a1f13;
+
+  --bg-light: #efe9dd;
+  --bg-raised-light: #e3dcca;
+  --bg-panel-light: #d9d1bb;
+  --ink-light: #1a120b;
+  --ink-dim-light: #55463a;
+  --ink-faint-light: #8b7a66;
+  --rule-light: #c9bfa8;
+  --rule-strong-light: #8b7a66;
+
+  --f-display: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+  --f-body: 'Inter', 'Helvetica Neue', sans-serif;
+  --f-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  --sidebar-w: 240px;
+  --pad: 32px;
+}
+
+[data-theme="light"] {
+  --bg: var(--bg-light);
+  --bg-raised: var(--bg-raised-light);
+  --bg-panel: var(--bg-panel-light);
+  --ink: var(--ink-light);
+  --ink-dim: var(--ink-dim-light);
+  --ink-faint: var(--ink-faint-light);
+  --rule: var(--rule-light);
+  --rule-strong: var(--rule-strong-light);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; background: none; border: none; cursor: pointer; }
+img, video { display: block; max-width: 100%; }
+
+.mono { font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-dim); }
+.display { font-family: var(--f-display); font-weight: 500; letter-spacing: -0.02em; line-height: 0.95; }
+.caps { text-transform: uppercase; letter-spacing: 0.14em; }
+
+.rule { height: 1px; background: var(--rule); width: 100%; }
+.rule-strong { height: 1px; background: var(--rule-strong); width: 100%; }

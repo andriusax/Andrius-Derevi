@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  month: MyString
+  year: MyString
+  venue: MyString
+  city: MyString
+  status: MyString
+  sold_out: false
+  ticket_url: MyString
+
+two:
+  date: MyString
+  month: MyString
+  year: MyString
+  venue: MyString
+  city: MyString
+  status: MyString
+  sold_out: false
+  ticket_url: MyString

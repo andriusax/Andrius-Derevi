@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <title><%= content_for(:title) || "Andrius Dereviancenko" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Andrius Dereviancenko">
+    <meta name="mobile-web-app-capable" content="yes">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "base", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "layout", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "components/page", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "components/scrollbar", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/home", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/bio", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/live", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/discography", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/videos", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/lessons", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/store", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "pages/contact", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "responsive", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <div class="app" data-controller="theme" data-theme-target="app">
+      <%= render "shared/sidebar" %>
+      <main class="main">
+        <%= yield %>
+      </main>
+    </div>
+  </body>
+</html>

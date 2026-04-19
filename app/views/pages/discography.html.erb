@@ -1,0 +1,34 @@
+<div class="page">
+  <div class="page-head">
+    <h1>Discography</h1>
+    
+  </div>
+
+  <div class="disc-grid">
+    <% @releases.each_with_index do |r, i| %>
+      <div class="disc-item">
+        <div class="disc-cover">
+          <% if r.image.present? %>
+            <%= image_tag r.image, alt: r.title %>
+          <% else %>
+            <div class="fill <%= r.fill %>"></div>
+          <% end %>
+        </div>
+        <div class="disc-meta">
+          <span>№ <%= "%02d" % (@releases.count - i) %></span>
+          <span><%= r.year %></span>
+        </div>
+        <div class="disc-title">
+          <%= r.title %>
+          <% if r.artist.present? %>
+            <span style="color:var(--ink-faint);font-size:13px;letter-spacing:0.04em;text-transform:uppercase;"> — <%= r.artist %></span>
+          <% end %>
+        </div>
+        <div class="disc-meta">
+          <span><%= r.format %></span>
+          <a href="<%= r.listen_url %>" target="_blank" rel="noopener" style="color: var(--ember-bright);">Listen ↗</a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

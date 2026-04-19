@@ -1,0 +1,64 @@
+.live-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--rule-strong);
+}
+.live-row {
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr 100px 120px;
+  gap: 20px;
+  padding: 22px 4px;
+  border-bottom: 1px solid var(--rule);
+  align-items: center;
+  transition: background 0.15s, padding 0.15s;
+  cursor: pointer;
+}
+.live-row:hover { background: var(--bg-raised); padding-left: 16px; }
+.live-row .date {
+  font-family: var(--f-display);
+  font-size: 20px;
+  letter-spacing: -0.01em;
+}
+.live-row .date .month { display: block; font-size: 11px; color: var(--ink-faint); letter-spacing: 0.14em; text-transform: uppercase; margin-top: 2px; font-family: var(--f-mono); }
+.live-row .venue {
+  font-family: var(--f-display);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.live-row .venue .band {
+  display: block;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--ember-bright);
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+.live-row .city {
+  font-size: 13px;
+  color: var(--ink-dim);
+  font-family: var(--f-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.live-row .status {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+}
+.live-row .status.sold-out { color: var(--ember-bright); }
+.live-row .ticket {
+  justify-self: end;
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  padding: 8px 14px;
+  transition: all 0.15s;
+}
+.live-row:hover .ticket { background: var(--ember); border-color: var(--ember); color: #fff; }

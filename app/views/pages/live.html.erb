@@ -1,0 +1,62 @@
+<div class="page">
+  <div class="page-head">
+    <h1>Live</h1>
+    <% if @upcoming.any? %>
+      <div class="meta"><%= @upcoming.count %> Upcoming · Spring / Summer 2026<br>Updated weekly</div>
+    <% end %>
+  </div>
+
+  <% if @upcoming.any? %>
+    <div class="live-list">
+      <% @upcoming.each do |show| %>
+        <div class="live-row">
+          <div class="date">
+            <%= show.performed_on&.day %>
+            <span class="month"><%= show.performed_on&.strftime("%b") %> · <%= show.performed_on&.year %></span>
+          </div>
+          <div class="venue">
+            <% if show.band.present? %>
+              <span class="band"><%= show.band %></span>
+            <% end %>
+            <%= show.venue %>
+          </div>
+          <div class="city"><%= show.city %></div>
+          <div class="status <%= show.sold_out? ? 'sold-out' : '' %>"><%= show.status %></div>
+          <% ticket_label = show.sold_out? ? "Waitlist" : "Tickets ↗" %>
+          <% if show.ticket_url.present? %>
+            <a href="<%= show.ticket_url %>" target="_blank" rel="noopener" class="ticket"><%= ticket_label %></a>
+          <% else %>
+            <div class="ticket"><%= ticket_label %></div>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  <% else %>
+    <p style="color: var(--ink-faint); font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;">No upcoming dates — check back soon.</p>
+  <% end %>
+
+  <% if @past.any? %>
+    <div style="margin-top: 56px;">
+      <div style="font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 16px;">Past Shows</div>
+      <div class="live-list" style="opacity: 0.5;">
+        <% @past.each do |show| %>
+          <div class="live-row" style="cursor: default;">
+            <div class="date">
+              <%= show.performed_on&.day %>
+              <span class="month"><%= show.performed_on&.strftime("%b") %> · <%= show.performed_on&.year %></span>
+            </div>
+            <div class="venue">
+              <% if show.band.present? %>
+                <span class="band"><%= show.band %></span>
+              <% end %>
+              <%= show.venue %>
+            </div>
+            <div class="city"><%= show.city %></div>
+            <div class="status"><%= show.status %></div>
+            <div class="ticket" style="color: var(--ink-faint); border-color: var(--rule);">Done</div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>

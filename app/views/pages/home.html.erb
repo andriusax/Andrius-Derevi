@@ -1,0 +1,47 @@
+<div class="home">
+  <div class="home-hero" data-controller="carousel">
+    <div class="hero-grain"></div>
+
+    <div class="hero-overlay">
+      <div class="hero-top"></div>
+
+      <div class="hero-carousel" data-carousel-target="track">
+        <div class="hero-carousel-track">
+          <div class="hero-carousel-slide is-active" data-carousel-target="slide">
+            <%= image_tag "carousel-01.png", alt: "Andrius Dereviancenko", style: "object-position: center 25%" %>
+          </div>
+          <div class="hero-carousel-slide" data-carousel-target="slide">
+            <%= image_tag "carousel-02.png", alt: "Andrius Dereviancenko", style: "object-position: center 25%" %>
+          </div>
+          <div class="hero-carousel-slide" data-carousel-target="slide">
+            <%= image_tag "carousel-03.png", alt: "Andrius Dereviancenko", style: "object-position: center center" %>
+          </div>
+        </div>
+        <div class="hero-carousel-dots">
+          <button class="hero-carousel-dot is-active" data-carousel-target="dot" data-action="click->carousel#goTo" data-index="0" aria-label="Slide 1"></button>
+          <button class="hero-carousel-dot" data-carousel-target="dot" data-action="click->carousel#goTo" data-index="1" aria-label="Slide 2"></button>
+          <button class="hero-carousel-dot" data-carousel-target="dot" data-action="click->carousel#goTo" data-index="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+
+      <div class="hero-split">
+        <div class="hero-cover">
+          <a href="https://ffm.to/hidden_sun" target="_blank" rel="noopener noreferrer" class="hero-cover-link">
+            <%= image_tag "hidden-sun-cover.jpg", alt: "Hidden Sun — 12 Tribes of Mars" %>
+          </a>
+          <div class="hero-cover-caption mono">
+            <span>12 TRIBES OF MARS</span>
+            <span>LP · 2026</span>
+          </div>
+        </div>
+
+        <div class="hero-title-block">
+          <div class="hero-tag">New Record · 12 Tribes of Mars</div>
+          <h1 class="hero-title">Hidden<br><em>Sun</em></h1>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</div>

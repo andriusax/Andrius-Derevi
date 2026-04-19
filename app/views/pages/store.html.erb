@@ -1,0 +1,28 @@
+<div class="page">
+  <div class="page-head">
+    <h1>Store</h1>
+    <div class="meta">Ships from Berlin, DE<br>Free EU shipping over €60</div>
+  </div>
+
+  <div class="store-grid">
+    <% @merch_items.each_with_index do |item, i| %>
+      <div class="store-item">
+        <div class="store-cover">
+          <div class="ph-label">[ Product shot ]</div>
+          <% if item.badge.present? %>
+            <div class="badge"><%= item.badge %></div>
+          <% end %>
+        </div>
+        <div class="store-meta">
+          <span><%= item.subtitle %></span>
+          <span>№ <%= "%03d" % (i + 1) %></span>
+        </div>
+        <div class="store-title"><%= item.title %></div>
+        <div class="store-meta">
+          <span class="store-price"><%= item.price %></span>
+          <span>Add to cart ↗</span>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

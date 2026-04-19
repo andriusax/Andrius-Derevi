@@ -1,0 +1,280 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Andrius Dereviancenko" [level=1] [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Dashboard" [ref=e7] [cursor=pointer]:
+          - /url: /admin/dashboard
+      - listitem [ref=e8]:
+        - link "Admin Users" [ref=e9] [cursor=pointer]:
+          - /url: /admin/admin_users
+      - listitem [ref=e10]:
+        - link "Comments" [ref=e11] [cursor=pointer]:
+          - /url: /admin/comments
+      - listitem [ref=e12]:
+        - link "Merch Items" [ref=e13] [cursor=pointer]:
+          - /url: /admin/merch_items
+      - listitem [ref=e14]:
+        - link "Releases" [ref=e15] [cursor=pointer]:
+          - /url: /admin/releases
+      - listitem [ref=e16]:
+        - link "Shows" [ref=e17] [cursor=pointer]:
+          - /url: /admin/shows
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "admin@andriusd.com" [ref=e20] [cursor=pointer]:
+          - /url: /admin/admin_users/1
+      - listitem [ref=e21]:
+        - link "Logout" [ref=e22] [cursor=pointer]:
+          - /url: /admin/logout
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - link "Admin" [ref=e26] [cursor=pointer]:
+          - /url: /admin
+        - text: /
+      - heading "Releases" [level=2] [ref=e27]
+    - link "New Release" [ref=e31] [cursor=pointer]:
+      - /url: /admin/releases/new
+  - generic [ref=e32]:
+    - generic [ref=e35]:
+      - link "Batch Actions" [ref=e38]:
+        - /url: "#"
+      - generic [ref=e39]:
+        - table [ref=e43]:
+          - rowgroup [ref=e44]:
+            - row "Position Title Artist Year Format Listen Url" [ref=e45]:
+              - columnheader [ref=e46]:
+                - checkbox [ref=e49]
+              - columnheader "Position" [ref=e50]:
+                - link "Position" [ref=e51] [cursor=pointer]:
+                  - /url: /admin/releases?order=position_desc
+              - columnheader "Title" [ref=e52]:
+                - link "Title" [ref=e53] [cursor=pointer]:
+                  - /url: /admin/releases?order=title_desc
+              - columnheader "Artist" [ref=e54]:
+                - link "Artist" [ref=e55] [cursor=pointer]:
+                  - /url: /admin/releases?order=artist_desc
+              - columnheader "Year" [ref=e56]:
+                - link "Year" [ref=e57] [cursor=pointer]:
+                  - /url: /admin/releases?order=year_desc
+              - columnheader "Format" [ref=e58]:
+                - link "Format" [ref=e59] [cursor=pointer]:
+                  - /url: /admin/releases?order=format_desc
+              - columnheader "Listen Url" [ref=e60]:
+                - link "Listen Url" [ref=e61] [cursor=pointer]:
+                  - /url: /admin/releases?order=listen_url_desc
+              - columnheader [ref=e62]
+          - rowgroup [ref=e63]:
+            - 'row "7 First Light 2017 EP # ViewEditDelete" [ref=e64]':
+              - cell [ref=e65]:
+                - checkbox [ref=e67]
+              - cell "7" [ref=e68]
+              - cell "First Light" [ref=e69]
+              - cell [ref=e70]
+              - cell "2017" [ref=e71]
+              - cell "EP" [ref=e72]
+              - cell "#" [ref=e73]
+              - cell "ViewEditDelete" [ref=e74]:
+                - generic [ref=e75]:
+                  - link "View" [ref=e76] [cursor=pointer]:
+                    - /url: /admin/releases/7
+                  - link "Edit" [ref=e77] [cursor=pointer]:
+                    - /url: /admin/releases/7/edit
+                  - link "Delete" [ref=e78] [cursor=pointer]:
+                    - /url: /admin/releases/7
+            - 'row "6 Kaunas Sessions 2019 LP # ViewEditDelete" [ref=e79]':
+              - cell [ref=e80]:
+                - checkbox [ref=e82]
+              - cell "6" [ref=e83]
+              - cell "Kaunas Sessions" [ref=e84]
+              - cell [ref=e85]
+              - cell "2019" [ref=e86]
+              - cell "LP" [ref=e87]
+              - cell "#" [ref=e88]
+              - cell "ViewEditDelete" [ref=e89]:
+                - generic [ref=e90]:
+                  - link "View" [ref=e91] [cursor=pointer]:
+                    - /url: /admin/releases/6
+                  - link "Edit" [ref=e92] [cursor=pointer]:
+                    - /url: /admin/releases/6/edit
+                  - link "Delete" [ref=e93] [cursor=pointer]:
+                    - /url: /admin/releases/6
+            - 'row "5 Mirror Etudes 2020 EP # ViewEditDelete" [ref=e94]':
+              - cell [ref=e95]:
+                - checkbox [ref=e97]
+              - cell "5" [ref=e98]
+              - cell "Mirror Etudes" [ref=e99]
+              - cell [ref=e100]
+              - cell "2020" [ref=e101]
+              - cell "EP" [ref=e102]
+              - cell "#" [ref=e103]
+              - cell "ViewEditDelete" [ref=e104]:
+                - generic [ref=e105]:
+                  - link "View" [ref=e106] [cursor=pointer]:
+                    - /url: /admin/releases/5
+                  - link "Edit" [ref=e107] [cursor=pointer]:
+                    - /url: /admin/releases/5/edit
+                  - link "Delete" [ref=e108] [cursor=pointer]:
+                    - /url: /admin/releases/5
+            - 'row "4 Breath & Iron 2022 LP / CD # ViewEditDelete" [ref=e109]':
+              - cell [ref=e110]:
+                - checkbox [ref=e112]
+              - cell "4" [ref=e113]
+              - cell "Breath & Iron" [ref=e114]
+              - cell [ref=e115]
+              - cell "2022" [ref=e116]
+              - cell "LP / CD" [ref=e117]
+              - cell "#" [ref=e118]
+              - cell "ViewEditDelete" [ref=e119]:
+                - generic [ref=e120]:
+                  - link "View" [ref=e121] [cursor=pointer]:
+                    - /url: /admin/releases/4
+                  - link "Edit" [ref=e122] [cursor=pointer]:
+                    - /url: /admin/releases/4/edit
+                  - link "Delete" [ref=e123] [cursor=pointer]:
+                    - /url: /admin/releases/4
+            - 'row "3 Low Countries 2023 LP # ViewEditDelete" [ref=e124]':
+              - cell [ref=e125]:
+                - checkbox [ref=e127]
+              - cell "3" [ref=e128]
+              - cell "Low Countries" [ref=e129]
+              - cell [ref=e130]
+              - cell "2023" [ref=e131]
+              - cell "LP" [ref=e132]
+              - cell "#" [ref=e133]
+              - cell "ViewEditDelete" [ref=e134]:
+                - generic [ref=e135]:
+                  - link "View" [ref=e136] [cursor=pointer]:
+                    - /url: /admin/releases/3
+                  - link "Edit" [ref=e137] [cursor=pointer]:
+                    - /url: /admin/releases/3/edit
+                  - link "Delete" [ref=e138] [cursor=pointer]:
+                    - /url: /admin/releases/3
+            - 'row "2 Ember / Vessel 2025 LP / Digital # ViewEditDelete" [ref=e139]':
+              - cell [ref=e140]:
+                - checkbox [ref=e142]
+              - cell "2" [ref=e143]
+              - cell "Ember / Vessel" [ref=e144]
+              - cell [ref=e145]
+              - cell "2025" [ref=e146]
+              - cell "LP / Digital" [ref=e147]
+              - cell "#" [ref=e148]
+              - cell "ViewEditDelete" [ref=e149]:
+                - generic [ref=e150]:
+                  - link "View" [ref=e151] [cursor=pointer]:
+                    - /url: /admin/releases/2
+                  - link "Edit" [ref=e152] [cursor=pointer]:
+                    - /url: /admin/releases/2/edit
+                  - link "Delete" [ref=e153] [cursor=pointer]:
+                    - /url: /admin/releases/2
+            - row "1 Hidden Sun 12 Tribes of Mars 2026 LP / Digital https://ffm.to/hidden_sun ViewEditDelete" [ref=e154]:
+              - cell [ref=e155]:
+                - checkbox [ref=e157]
+              - cell "1" [ref=e158]
+              - cell "Hidden Sun" [ref=e159]
+              - cell "12 Tribes of Mars" [ref=e160]
+              - cell "2026" [ref=e161]
+              - cell "LP / Digital" [ref=e162]
+              - cell "https://ffm.to/hidden_sun" [ref=e163]
+              - cell "ViewEditDelete" [ref=e164]:
+                - generic [ref=e165]:
+                  - link "View" [ref=e166] [cursor=pointer]:
+                    - /url: /admin/releases/1
+                  - link "Edit" [ref=e167] [cursor=pointer]:
+                    - /url: /admin/releases/1/edit
+                  - link "Delete" [ref=e168] [cursor=pointer]:
+                    - /url: /admin/releases/1
+        - generic [ref=e169]:
+          - generic [ref=e170]: Displaying all 7 Releases
+          - generic [ref=e171]:
+            - text: "Download:"
+            - link "CSV" [ref=e172] [cursor=pointer]:
+              - /url: /admin/releases.csv
+            - link "XML" [ref=e173] [cursor=pointer]:
+              - /url: /admin/releases.xml
+            - link "JSON" [ref=e174] [cursor=pointer]:
+              - /url: /admin/releases.json
+    - generic [ref=e176]:
+      - heading "Filters" [level=3] [ref=e177]
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - generic [ref=e181]: Title
+          - combobox [ref=e182]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Title" [ref=e183]
+        - generic [ref=e184]:
+          - generic [ref=e185]: Artist
+          - combobox [ref=e186]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Artist" [ref=e187]
+        - generic [ref=e188]:
+          - generic [ref=e189]: Year
+          - combobox [ref=e190]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Year" [ref=e191]
+        - generic [ref=e192]:
+          - generic [ref=e193]: Format
+          - combobox [ref=e194]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Format" [ref=e195]
+        - generic [ref=e196]:
+          - generic [ref=e197]: Fill
+          - combobox [ref=e198]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Fill" [ref=e199]
+        - generic [ref=e200]:
+          - generic [ref=e201]: Image
+          - combobox [ref=e202]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Image" [ref=e203]
+        - generic [ref=e204]:
+          - generic [ref=e205]: Listen url
+          - combobox [ref=e206]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Listen url" [ref=e207]
+        - generic [ref=e208]:
+          - generic [ref=e209]: Position
+          - combobox [ref=e210]:
+            - option "Equals" [selected]
+            - option "Greater than"
+            - option "Less than"
+          - textbox "Position" [ref=e211]
+        - generic [ref=e212]:
+          - generic [ref=e213]: Created at
+          - textbox "From" [ref=e214]
+          - textbox "To" [ref=e215]
+        - generic [ref=e216]:
+          - generic [ref=e217]: Updated at
+          - textbox "From" [ref=e218]
+          - textbox "To" [ref=e219]
+        - generic [ref=e220]:
+          - button "Filter" [ref=e221] [cursor=pointer]
+          - link "Clear Filters" [ref=e222] [cursor=pointer]:
+            - /url: "#"
+  - paragraph [ref=e224]:
+    - text: Powered by
+    - link "Active Admin" [ref=e225] [cursor=pointer]:
+      - /url: https://activeadmin.info
+    - text: 3.5.1

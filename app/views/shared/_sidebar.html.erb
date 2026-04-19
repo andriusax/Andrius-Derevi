@@ -1,0 +1,49 @@
+<aside class="sidebar">
+  <div class="brand">
+    <span class="sur">Andrius</span>
+    <span class="given">Dereviancenko</span>
+  </div>
+
+  <nav class="nav">
+    <% nav_items = [
+      { id: "home",         label: "Home",         path: root_path },
+      { id: "bio",          label: "Bio",           path: bio_path },
+      { id: "live",         label: "Live",          path: live_path },
+      { id: "videos",       label: "Videos",        path: videos_path },
+      { id: "disc",         label: "Discography",   path: discography_path },
+      { id: "lessons",      label: "Lessons",       path: lessons_path },
+      { id: "store",        label: "Store",         path: store_path },
+      { id: "contact",      label: "Contact",       path: contact_path, },
+    ] %>
+    <% nav_items.each do |item| %>
+      <%= link_to item[:path], class: "#{current_page?(item[:path]) ? 'active' : ''}" do %>
+        <span class="idx"><%= item[:num] %></span><%= item[:label] %>
+      <% end %>
+    <% end %>
+  </nav>
+
+  <div class="sidebar-meta">
+    <div class="now-playing">
+      <span class="lbl">Current Release</span>
+      <span class="val">Hidden Sun</span>
+      <span class="val" style="color: var(--ink-faint);">12 Tribes of Mars · 2026</span>
+    </div>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/derevi89/" target="_blank" rel="noopener" title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://12tribesofmars.bandcamp.com/album/hidden-sun" target="_blank" rel="noopener" title="Bandcamp">
+        <i class="fa-brands fa-bandcamp"></i>
+      </a>
+      <a href="https://linktr.ee/andriusmusic" target="_blank" rel="noopener" title="Linktree">
+        <i class="fa-solid fa-link"></i>
+      </a>
+      <a href="https://www.youtube.com/@andriusdereviancenko7791" target="_blank" rel="noopener" title="YouTube">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+
+
+  </div>
+</aside>

@@ -1,0 +1,167 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Andrius Dereviancenko" [level=1] [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Merch Items" [ref=e7] [cursor=pointer]:
+          - /url: /admin/merch_items
+      - listitem [ref=e8]:
+        - link "Releases" [ref=e9] [cursor=pointer]:
+          - /url: /admin/releases
+      - listitem [ref=e10]:
+        - link "Shows" [ref=e11] [cursor=pointer]:
+          - /url: /admin/shows
+    - list [ref=e12]:
+      - listitem [ref=e13]: admin@andriusd.com
+      - listitem [ref=e14]:
+        - link "Logout" [ref=e15] [cursor=pointer]:
+          - /url: /admin/logout
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - link "Admin" [ref=e19] [cursor=pointer]:
+          - /url: /admin
+        - text: /
+      - heading "Releases" [level=2] [ref=e20]
+    - link "New Release" [ref=e24] [cursor=pointer]:
+      - /url: /admin/releases/new
+  - generic [ref=e25]:
+    - generic [ref=e28]:
+      - link "Batch Actions" [ref=e31]:
+        - /url: "#"
+      - generic [ref=e32]:
+        - table [ref=e36]:
+          - rowgroup [ref=e37]:
+            - row "Position Title Artist Year Format Listen Url" [ref=e38]:
+              - columnheader [ref=e39]:
+                - checkbox [ref=e42]
+              - columnheader "Position" [ref=e43]:
+                - link "Position" [ref=e44] [cursor=pointer]:
+                  - /url: /admin/releases?order=position_desc
+              - columnheader "Title" [ref=e45]:
+                - link "Title" [ref=e46] [cursor=pointer]:
+                  - /url: /admin/releases?order=title_desc
+              - columnheader "Artist" [ref=e47]:
+                - link "Artist" [ref=e48] [cursor=pointer]:
+                  - /url: /admin/releases?order=artist_desc
+              - columnheader "Year" [ref=e49]:
+                - link "Year" [ref=e50] [cursor=pointer]:
+                  - /url: /admin/releases?order=year_desc
+              - columnheader "Format" [ref=e51]:
+                - link "Format" [ref=e52] [cursor=pointer]:
+                  - /url: /admin/releases?order=format_desc
+              - columnheader "Listen Url" [ref=e53]:
+                - link "Listen Url" [ref=e54] [cursor=pointer]:
+                  - /url: /admin/releases?order=listen_url_desc
+              - columnheader [ref=e55]
+          - rowgroup [ref=e56]:
+            - row "1 Hidden Sun 12 Tribes of Mars 2026 LP / Digital https://ffm.to/hidden_sun ViewEditDelete" [ref=e57]:
+              - cell [ref=e58]:
+                - checkbox [ref=e60]
+              - cell "1" [ref=e61]
+              - cell "Hidden Sun" [ref=e62]
+              - cell "12 Tribes of Mars" [ref=e63]
+              - cell "2026" [ref=e64]
+              - cell "LP / Digital" [ref=e65]
+              - cell "https://ffm.to/hidden_sun" [ref=e66]
+              - cell "ViewEditDelete" [ref=e67]:
+                - generic [ref=e68]:
+                  - link "View" [ref=e69] [cursor=pointer]:
+                    - /url: /admin/releases/1
+                  - link "Edit" [ref=e70] [cursor=pointer]:
+                    - /url: /admin/releases/1/edit
+                  - link "Delete" [ref=e71] [cursor=pointer]:
+                    - /url: /admin/releases/1
+        - generic [ref=e72]:
+          - generic [ref=e73]: Displaying 1 Release
+          - generic [ref=e74]:
+            - text: "Download:"
+            - link "CSV" [ref=e75] [cursor=pointer]:
+              - /url: /admin/releases.csv
+            - link "XML" [ref=e76] [cursor=pointer]:
+              - /url: /admin/releases.xml
+            - link "JSON" [ref=e77] [cursor=pointer]:
+              - /url: /admin/releases.json
+    - generic [ref=e79]:
+      - heading "Filters" [level=3] [ref=e80]
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: Title
+          - combobox [ref=e85]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Title" [ref=e86]
+        - generic [ref=e87]:
+          - generic [ref=e88]: Artist
+          - combobox [ref=e89]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Artist" [ref=e90]
+        - generic [ref=e91]:
+          - generic [ref=e92]: Year
+          - combobox [ref=e93]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Year" [ref=e94]
+        - generic [ref=e95]:
+          - generic [ref=e96]: Format
+          - combobox [ref=e97]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Format" [ref=e98]
+        - generic [ref=e99]:
+          - generic [ref=e100]: Fill
+          - combobox [ref=e101]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Fill" [ref=e102]
+        - generic [ref=e103]:
+          - generic [ref=e104]: Image
+          - combobox [ref=e105]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Image" [ref=e106]
+        - generic [ref=e107]:
+          - generic [ref=e108]: Listen url
+          - combobox [ref=e109]:
+            - option "Contains" [selected]
+            - option "Equals"
+            - option "Starts with"
+            - option "Ends with"
+          - textbox "Listen url" [ref=e110]
+        - generic [ref=e111]:
+          - generic [ref=e112]: Position
+          - combobox [ref=e113]:
+            - option "Equals" [selected]
+            - option "Greater than"
+            - option "Less than"
+          - textbox "Position" [ref=e114]
+        - generic [ref=e115]:
+          - generic [ref=e116]: Created at
+          - textbox "From" [ref=e117]
+          - textbox "To" [ref=e118]
+        - generic [ref=e119]:
+          - generic [ref=e120]: Updated at
+          - textbox "From" [ref=e121]
+          - textbox "To" [ref=e122]
+        - generic [ref=e123]:
+          - button "Filter" [ref=e124] [cursor=pointer]
+          - link "Clear Filters" [ref=e125] [cursor=pointer]:
+            - /url: "#"
+  - paragraph [ref=e127]:
+    - text: Powered by
+    - link "Active Admin" [ref=e128] [cursor=pointer]:
+      - /url: https://activeadmin.info
+    - text: 3.5.1

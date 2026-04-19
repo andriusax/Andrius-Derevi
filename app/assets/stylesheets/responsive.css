@@ -1,0 +1,10 @@
+@media (max-width: 900px) {
+  .app { grid-template-columns: 1fr; }
+  .sidebar { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--rule); }
+  .bio-grid { grid-template-columns: 1fr; }
+  .disc-grid, .store-grid { grid-template-columns: repeat(2, 1fr); }
+  .lessons-tiers { grid-template-columns: 1fr; }
+  .lessons-masterclass { grid-template-columns: 1fr; }
+  .live-row { grid-template-columns: 80px 1fr 80px; gap: 12px; }
+  .live-row .city, .live-row .status { display: none; }
+}

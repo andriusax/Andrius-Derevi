@@ -1,0 +1,37 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Andrius Dereviancenko" [level=1] [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Dashboard" [ref=e7] [cursor=pointer]:
+          - /url: /admin/dashboard
+      - listitem [ref=e8]:
+        - link "Admin Users" [ref=e9] [cursor=pointer]:
+          - /url: /admin/admin_users
+      - listitem [ref=e10]:
+        - link "Comments" [ref=e11] [cursor=pointer]:
+          - /url: /admin/comments
+      - listitem [ref=e12]:
+        - link "Merch Items" [ref=e13] [cursor=pointer]:
+          - /url: /admin/merch_items
+      - listitem [ref=e14]:
+        - link "Releases" [ref=e15] [cursor=pointer]:
+          - /url: /admin/releases
+      - listitem [ref=e16]:
+        - link "Shows" [ref=e17] [cursor=pointer]:
+          - /url: /admin/shows
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "admin@andriusd.com" [ref=e20] [cursor=pointer]:
+          - /url: /admin/admin_users/1
+      - listitem [ref=e21]:
+        - link "Logout" [ref=e22] [cursor=pointer]:
+          - /url: /admin/logout
+  - heading "Dashboard" [level=2] [ref=e25]
+  - generic [ref=e27]: Signed in successfully.
+  - generic [ref=e32]: Welcome to Active Admin. This is the default dashboard page. To add dashboard sections, checkout 'app/admin/dashboard.rb'
+  - paragraph [ref=e34]:
+    - text: Powered by
+    - link "Active Admin" [ref=e35] [cursor=pointer]:
+      - /url: https://activeadmin.info
+    - text: 3.5.1

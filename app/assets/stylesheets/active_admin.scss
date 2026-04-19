@@ -1,0 +1,50 @@
+@import "active_admin/mixins";
+@import "active_admin/base";
+
+// ── Index table ──
+table.index_table th,
+table.index_table td {
+  padding: 10px 14px;
+}
+
+table.index_table tbody tr:hover {
+  background: #f5f7fa;
+}
+
+// ── Form inputs ──
+.input input[type="text"],
+.input input[type="email"],
+.input input[type="url"],
+.input input[type="date"],
+.input select,
+.input textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 7px 10px;
+  border: 1px solid #d0d5dd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.input input[type="checkbox"] {
+  margin-top: 6px;
+}
+
+ol.form-inputs > li.input {
+  margin-bottom: 18px;
+}
+
+.input .inline-hints {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+// ── Buttons ──
+.action_items .action_item a,
+a.button, input.button, button.button {
+  border-radius: 5px;
+  padding: 7px 14px;
+  font-size: 13px;
+}

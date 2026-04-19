@@ -1,0 +1,45 @@
+.disc-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 24px;
+}
+.disc-item { display: flex; flex-direction: column; gap: 10px; cursor: pointer; }
+.disc-cover {
+  aspect-ratio: 1;
+  border: 1px solid var(--rule-strong);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.disc-item:hover .disc-cover { transform: translateY(-4px); }
+.disc-cover .fill {
+  position: absolute; inset: 0;
+}
+.disc-cover img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.disc-title {
+  font-family: var(--f-display);
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 4px;
+}
+.disc-meta {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  color: var(--ink-dim);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fill-ember { background: linear-gradient(135deg, #2a0f06, #7a1f13 60%, #c2410c); }
+.fill-bone  { background: linear-gradient(135deg, #1a120b, #3a2a1a 60%, #ebe3d6 120%); }
+.fill-smoke { background: repeating-linear-gradient(45deg, #1a120b 0 6px, #251a10 6px 12px); }
+.fill-coal  { background: radial-gradient(circle at 30% 30%, #3a2018, #0a0604 70%); }
+.fill-rust  { background: linear-gradient(180deg, #7a1f13, #2a0f06); }
+.fill-iron  { background: linear-gradient(135deg, #1f1710, #4a382a, #1f1710); }

@@ -1,0 +1,82 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "Andrius Dereviancenko" [level=1] [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Dashboard" [ref=e7] [cursor=pointer]:
+          - /url: /admin/dashboard
+      - listitem [ref=e8]:
+        - link "Admin Users" [ref=e9] [cursor=pointer]:
+          - /url: /admin/admin_users
+      - listitem [ref=e10]:
+        - link "Comments" [ref=e11] [cursor=pointer]:
+          - /url: /admin/comments
+      - listitem [ref=e12]:
+        - link "Merch Items" [ref=e13] [cursor=pointer]:
+          - /url: /admin/merch_items
+      - listitem [ref=e14]:
+        - link "Releases" [ref=e15] [cursor=pointer]:
+          - /url: /admin/releases
+      - listitem [ref=e16]:
+        - link "Shows" [ref=e17] [cursor=pointer]:
+          - /url: /admin/shows
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "admin@andriusd.com" [ref=e20] [cursor=pointer]:
+          - /url: /admin/admin_users/1
+      - listitem [ref=e21]:
+        - link "Logout" [ref=e22] [cursor=pointer]:
+          - /url: /admin/logout
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - link "Admin" [ref=e26] [cursor=pointer]:
+        - /url: /admin
+      - text: /
+      - link "Shows" [ref=e27] [cursor=pointer]:
+        - /url: /admin/shows
+      - text: /
+      - 'link "Show #22" [ref=e28] [cursor=pointer]':
+        - /url: /admin/shows/22
+      - text: /
+    - heading "Edit Show" [level=2] [ref=e29]
+  - generic [ref=e33]:
+    - group [ref=e34]:
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - generic [ref=e37]: Performed on
+          - textbox "Performed on" [ref=e38]: 2026-03-08
+        - listitem [ref=e39]:
+          - generic [ref=e40]: Band
+          - textbox "Band" [ref=e41]: Solo
+          - paragraph [ref=e42]: e.g. 12 Tribes of Mars, Solo
+        - listitem [ref=e43]:
+          - generic [ref=e44]: Venue
+          - textbox "Venue" [ref=e45]: Zaal 100
+        - listitem [ref=e46]:
+          - generic [ref=e47]: City
+          - textbox "City" [ref=e48]: Amsterdam, NL
+          - paragraph [ref=e49]: e.g. Berlin, DE
+        - listitem [ref=e50]:
+          - generic [ref=e51]: Status
+          - textbox "Status" [ref=e52]
+          - paragraph [ref=e53]: e.g. Tickets, SOLD OUT, Festival, Low stock
+        - listitem [ref=e54]:
+          - generic [ref=e55]:
+            - checkbox "Sold out" [ref=e56]
+            - text: Sold out
+        - listitem [ref=e57]:
+          - generic [ref=e58]: Ticket url
+          - textbox "Ticket url" [ref=e59]
+          - paragraph [ref=e60]: Link to ticket page (optional)
+    - group [ref=e61]:
+      - list:
+        - listitem [ref=e62]:
+          - button "Update Show" [ref=e63] [cursor=pointer]
+        - listitem [ref=e64]:
+          - link "Cancel" [ref=e65] [cursor=pointer]:
+            - /url: /admin/shows
+  - paragraph [ref=e67]:
+    - text: Powered by
+    - link "Active Admin" [ref=e68] [cursor=pointer]:
+      - /url: https://activeadmin.info
+    - text: 3.5.1

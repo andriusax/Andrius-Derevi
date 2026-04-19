@@ -1,0 +1,803 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Copy as text" [ref=e3]
+    - heading "Propshaft::MissingAssetError in Admin::Shows#index" [level=1] [ref=e4]
+  - main [ref=e5]:
+    - paragraph [ref=e6]: "Showing /Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/app/views/active_admin/resource/index.html.arb where line #3 raised:"
+    - code [ref=e8]: The asset 'active_admin.css' was not found in the load path.
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - text: Extracted source (around line
+        - strong [ref=e11]: "#50"
+        - text: "):"
+      - table [ref=e13]:
+        - rowgroup [ref=e14]:
+          - 'row "48 49 50 51 52 53 # Resolves the full path for an asset, raising an error if not found. def compute_asset_path(path, options = {}) Rails.application.assets.resolver.resolve(path) || raise (MissingAssetError.new(path)) end # Enhanced +stylesheet_link_tag+ with integrity support and bulk inclusion options." [ref=e15]':
+            - cell "48 49 50 51 52 53" [ref=e16]:
+              - generic [ref=e17]:
+                - link "48" [ref=e19] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:48
+                - link "49" [ref=e21] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:49
+                - link "50" [ref=e23] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:50
+                - link "51" [ref=e25] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:51
+                - link "52" [ref=e27] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:52
+                - link "53" [ref=e29] [cursor=pointer]:
+                  - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:53
+            - 'cell "# Resolves the full path for an asset, raising an error if not found. def compute_asset_path(path, options = {}) Rails.application.assets.resolver.resolve(path) || raise (MissingAssetError.new(path)) end # Enhanced +stylesheet_link_tag+ with integrity support and bulk inclusion options." [ref=e30]':
+              - generic [ref=e31]:
+                - generic [ref=e32]: "# Resolves the full path for an asset, raising an error if not found."
+                - generic [ref=e33]: "def compute_asset_path(path, options = {})"
+                - generic [ref=e34]:
+                  - text: Rails.application.assets.resolver.resolve(path) ||
+                  - generic [ref=e35]: raise
+                  - text: (MissingAssetError.new(path))
+                - generic [ref=e36]: end
+                - generic [ref=e38]: "# Enhanced +stylesheet_link_tag+ with integrity support and bulk inclusion options."
+    - paragraph
+    - paragraph [ref=e39]:
+      - code [ref=e40]: "Rails.root: /Users/andrius/Documents/Coding/Projects/AndriusDereviancenko"
+    - generic [ref=e41]:
+      - link "Application Trace" [ref=e42] [cursor=pointer]:
+        - /url: "#"
+      - text: "|"
+      - link "Framework Trace" [ref=e43] [cursor=pointer]:
+        - /url: "#"
+      - text: "|"
+      - link "Full Trace" [ref=e44] [cursor=pointer]:
+        - /url: "#"
+      - code [ref=e46]:
+        - generic [ref=e47]:
+          - link "✏️" [ref=e48] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:50
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:50:in `compute_asset_path''" [ref=e49] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e50]:
+          - link "✏️" [ref=e51] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_url_helper.rb:204
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_url_helper.rb:204:in `asset_path''" [ref=e52] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e53]:
+          - link "✏️" [ref=e54] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_url_helper.rb:349
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_url_helper.rb:349:in `stylesheet_path''" [ref=e55] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e56]:
+          - link "✏️" [ref=e57] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:218
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:218:in `block in stylesheet_link_tag''" [ref=e58] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e59]:
+          - link "✏️" [ref=e60] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:217
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:217:in `map''" [ref=e61] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e62]:
+          - link "✏️" [ref=e63] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:217
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/helpers/asset_tag_helper.rb:217:in `stylesheet_link_tag''" [ref=e64] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e65]:
+          - link "✏️" [ref=e66] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:83
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:83:in `block in stylesheet_link_tag''" [ref=e67] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e68]:
+          - link "✏️" [ref=e69] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:127
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:127:in `block in _build_asset_tags''" [ref=e70] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e71]:
+          - link "✏️" [ref=e72] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:125
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:125:in `map''" [ref=e73] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e74]:
+          - link "✏️" [ref=e75] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:125
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:125:in `_build_asset_tags''" [ref=e76] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e77]:
+          - link "✏️" [ref=e78] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:83
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/helper.rb:83:in `stylesheet_link_tag''" [ref=e79] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e80]:
+          - link "✏️" [ref=e81] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element.rb:183
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element.rb:183:in `method_missing''" [ref=e82] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e83]:
+          - link "✏️" [ref=e84] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:33
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:33:in `block (2 levels) in build_active_admin_head''" [ref=e85] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e86]:
+          - link "✏️" [ref=e87] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:32
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:32:in `each''" [ref=e88] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e89]:
+          - link "✏️" [ref=e90] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:32
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:32:in `block in build_active_admin_head''" [ref=e91] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e92]:
+          - link "✏️" [ref=e93] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:94
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:94:in `with_current_arbre_element''" [ref=e94] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e95]:
+          - link "✏️" [ref=e96] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:50
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:50:in `with_current_arbre_element''" [ref=e97] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e98]:
+          - link "✏️" [ref=e99] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:27
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:27:in `build_active_admin_head''" [ref=e100] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e101]:
+          - link "✏️" [ref=e102] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:9
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/views/pages/base.rb:9:in `build''" [ref=e103] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e104]:
+          - link "✏️" [ref=e105] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:31:in `block in build_tag''" [ref=e106] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e107]:
+          - link "✏️" [ref=e108] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:94
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:94:in `with_current_arbre_element''" [ref=e109] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e110]:
+          - link "✏️" [ref=e111] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:27
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:27:in `build_tag''" [ref=e112] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e113]:
+          - link "✏️" [ref=e114] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:40
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/element/builder_methods.rb:40:in `insert_tag''" [ref=e115] [cursor=pointer]':
+            - /url: "#"
+        - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/app/views/active_admin/resource/index.html.arb:3:in `block in ___sers_andrius__rbenv_versions_______lib_ruby_gems_______gems_activeadmin_______app_views_active_admin_resource_index_html_arb__2714232629180828892_188220''" [ref=e117] [cursor=pointer]':
+          - /url: "#"
+        - generic [ref=e118]:
+          - link "✏️" [ref=e119] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:47
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:47:in `instance_eval''" [ref=e120] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e121]:
+          - link "✏️" [ref=e122] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:47
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/arbre-1.7.0/lib/arbre/context.rb:47:in `initialize''" [ref=e123] [cursor=pointer]':
+            - /url: "#"
+        - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/app/views/active_admin/resource/index.html.arb:1:in `new''" [ref=e125] [cursor=pointer]':
+          - /url: "#"
+        - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/app/views/active_admin/resource/index.html.arb:1:in `___sers_andrius__rbenv_versions_______lib_ruby_gems_______gems_activeadmin_______app_views_active_admin_resource_index_html_arb__2714232629180828892_188220''" [ref=e127] [cursor=pointer]':
+          - /url: "#"
+        - generic [ref=e128]:
+          - link "✏️" [ref=e129] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:281
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:281:in `public_send''" [ref=e130] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e131]:
+          - link "✏️" [ref=e132] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:281
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:281:in `_run''" [ref=e133] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e134]:
+          - link "✏️" [ref=e135] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:284
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:284:in `block in render''" [ref=e136] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e137]:
+          - link "✏️" [ref=e138] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:212
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:212:in `instrument''" [ref=e139] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e140]:
+          - link "✏️" [ref=e141] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:589
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:589:in `instrument_render_template''" [ref=e142] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e143]:
+          - link "✏️" [ref=e144] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:272
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/template.rb:272:in `render''" [ref=e145] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e146]:
+          - link "✏️" [ref=e147] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:66
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:66:in `block (2 levels) in render_template''" [ref=e148] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e149]:
+          - link "✏️" [ref=e150] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210:in `block in instrument''" [ref=e151] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e152]:
+          - link "✏️" [ref=e153] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications/instrumenter.rb:58
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications/instrumenter.rb:58:in `instrument''" [ref=e154] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e155]:
+          - link "✏️" [ref=e156] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210:in `instrument''" [ref=e157] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e158]:
+          - link "✏️" [ref=e159] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:60
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:60:in `block in render_template''" [ref=e160] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e161]:
+          - link "✏️" [ref=e162] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:80
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:80:in `render_with_layout''" [ref=e163] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e164]:
+          - link "✏️" [ref=e165] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:59
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:59:in `render_template''" [ref=e166] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e167]:
+          - link "✏️" [ref=e168] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:11
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/template_renderer.rb:11:in `render''" [ref=e169] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e170]:
+          - link "✏️" [ref=e171] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/renderer.rb:58
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/renderer.rb:58:in `render_template_to_object''" [ref=e172] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e173]:
+          - link "✏️" [ref=e174] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/renderer.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/renderer/renderer.rb:31:in `render_to_object''" [ref=e175] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e176]:
+          - link "✏️" [ref=e177] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:136
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:136:in `block in _render_template''" [ref=e178] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e179]:
+          - link "✏️" [ref=e180] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:308
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/base.rb:308:in `in_rendering_context''" [ref=e181] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e182]:
+          - link "✏️" [ref=e183] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:135
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:135:in `_render_template''" [ref=e184] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e185]:
+          - link "✏️" [ref=e186] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/streaming.rb:179
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/streaming.rb:179:in `_render_template''" [ref=e187] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e188]:
+          - link "✏️" [ref=e189] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:122
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:122:in `render_to_body''" [ref=e190] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e191]:
+          - link "✏️" [ref=e192] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:192
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:192:in `render_to_body''" [ref=e193] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e194]:
+          - link "✏️" [ref=e195] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/renderers.rb:155
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/renderers.rb:155:in `render_to_body''" [ref=e196] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e197]:
+          - link "✏️" [ref=e198] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/rendering.rb:28
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/rendering.rb:28:in `render''" [ref=e199] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e200]:
+          - link "✏️" [ref=e201] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:173
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:173:in `render''" [ref=e202] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e203]:
+          - link "✏️" [ref=e204] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:31:in `block (2 levels) in render''" [ref=e205] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e206]:
+          - link "✏️" [ref=e207] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/benchmark.rb:17
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/benchmark.rb:17:in `realtime''" [ref=e208] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e209]:
+          - link "✏️" [ref=e210] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:31:in `block in render''" [ref=e211] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e212]:
+          - link "✏️" [ref=e213] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:100
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:100:in `cleanup_view_runtime''" [ref=e214] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e215]:
+          - link "✏️" [ref=e216] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/railties/controller_runtime.rb:48
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/railties/controller_runtime.rb:48:in `cleanup_view_runtime''" [ref=e217] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e218]:
+          - link "✏️" [ref=e219] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:30
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:30:in `render''" [ref=e220] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e221]:
+          - link "✏️" [ref=e222] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:245
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:245:in `default_render''" [ref=e223] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e224]:
+          - link "✏️" [ref=e225] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:175
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:175:in `to_html''" [ref=e226] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e227]:
+          - link "✏️" [ref=e228] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/responders/flash_responder.rb:105
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/responders/flash_responder.rb:105:in `to_html''" [ref=e229] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e230]:
+          - link "✏️" [ref=e231] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:168
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:168:in `respond''" [ref=e232] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e233]:
+          - link "✏️" [ref=e234] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:161
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/responder.rb:161:in `call''" [ref=e235] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e236]:
+          - link "✏️" [ref=e237] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/respond_with.rb:216
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/responders-3.2.0/lib/action_controller/respond_with.rb:216:in `respond_with''" [ref=e238] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e239]:
+          - link "✏️" [ref=e240] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/inherited_resources-1.14.0/lib/inherited_resources/actions.rb:7
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/inherited_resources-1.14.0/lib/inherited_resources/actions.rb:7:in `index''" [ref=e241] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e242]:
+          - link "✏️" [ref=e243] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/resource_controller/streaming.rb:13
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activeadmin-3.5.1/lib/active_admin/resource_controller/streaming.rb:13:in `index''" [ref=e244] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e245]:
+          - link "✏️" [ref=e246] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/basic_implicit_render.rb:8
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/basic_implicit_render.rb:8:in `send_action''" [ref=e247] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e248]:
+          - link "✏️" [ref=e249] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/base.rb:221
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/base.rb:221:in `process_action''" [ref=e250] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e251]:
+          - link "✏️" [ref=e252] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:199
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rendering.rb:199:in `process_action''" [ref=e253] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e254]:
+          - link "✏️" [ref=e255] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/callbacks.rb:267
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/callbacks.rb:267:in `block in process_action''" [ref=e256] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e257]:
+          - link "✏️" [ref=e258] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:121
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:121:in `block in run_callbacks''" [ref=e259] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e260]:
+          - link "✏️" [ref=e261] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.23/lib/turbo-rails.rb:24
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.23/lib/turbo-rails.rb:24:in `with_request_id''" [ref=e262] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e263]:
+          - link "✏️" [ref=e264] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.23/app/controllers/concerns/turbo/request_id_tracking.rb:10
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/turbo-rails-2.0.23/app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id''" [ref=e265] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e266]:
+          - link "✏️" [ref=e267] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130:in `block in run_callbacks''" [ref=e268] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e269]:
+          - link "✏️" [ref=e270] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actiontext-8.1.3/lib/action_text/rendering.rb:24
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actiontext-8.1.3/lib/action_text/rendering.rb:24:in `with_renderer''" [ref=e271] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e272]:
+          - link "✏️" [ref=e273] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actiontext-8.1.3/lib/action_text/engine.rb:72
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actiontext-8.1.3/lib/action_text/engine.rb:72:in `block (4 levels) in <class:Engine>''" [ref=e274] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e275]:
+          - link "✏️" [ref=e276] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130:in `instance_exec''" [ref=e277] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e278]:
+          - link "✏️" [ref=e279] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:130:in `block in run_callbacks''" [ref=e280] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e281]:
+          - link "✏️" [ref=e282] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:141
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:141:in `run_callbacks''" [ref=e283] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e284]:
+          - link "✏️" [ref=e285] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/callbacks.rb:266
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/callbacks.rb:266:in `process_action''" [ref=e286] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e287]:
+          - link "✏️" [ref=e288] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rescue.rb:36
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/rescue.rb:36:in `process_action''" [ref=e289] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e290]:
+          - link "✏️" [ref=e291] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:76
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:76:in `block in process_action''" [ref=e292] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e293]:
+          - link "✏️" [ref=e294] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210:in `block in instrument''" [ref=e295] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e296]:
+          - link "✏️" [ref=e297] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications/instrumenter.rb:58
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications/instrumenter.rb:58:in `instrument''" [ref=e298] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e299]:
+          - link "✏️" [ref=e300] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/notifications.rb:210:in `instrument''" [ref=e301] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e302]:
+          - link "✏️" [ref=e303] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:75
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/instrumentation.rb:75:in `process_action''" [ref=e304] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e305]:
+          - link "✏️" [ref=e306] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/params_wrapper.rb:259
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal/params_wrapper.rb:259:in `process_action''" [ref=e307] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e308]:
+          - link "✏️" [ref=e309] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/railties/controller_runtime.rb:39
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/railties/controller_runtime.rb:39:in `process_action''" [ref=e310] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e311]:
+          - link "✏️" [ref=e312] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/base.rb:154
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/abstract_controller/base.rb:154:in `process''" [ref=e313] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e314]:
+          - link "✏️" [ref=e315] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:40
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionview-8.1.3/lib/action_view/rendering.rb:40:in `process''" [ref=e316] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e317]:
+          - link "✏️" [ref=e318] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal.rb:252
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal.rb:252:in `dispatch''" [ref=e319] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e320]:
+          - link "✏️" [ref=e321] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal.rb:335
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_controller/metal.rb:335:in `dispatch''" [ref=e322] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e323]:
+          - link "✏️" [ref=e324] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:65
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:65:in `dispatch''" [ref=e325] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e326]:
+          - link "✏️" [ref=e327] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:50
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:50:in `serve''" [ref=e328] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e329]:
+          - link "✏️" [ref=e330] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:35
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:35:in `block in serve''" [ref=e331] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e332]:
+          - link "✏️" [ref=e333] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:86
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:86:in `block in recognize''" [ref=e334] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e335]:
+          - link "✏️" [ref=e336] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:66
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:66:in `each''" [ref=e337] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e338]:
+          - link "✏️" [ref=e339] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:66
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:66:in `recognize''" [ref=e340] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e341]:
+          - link "✏️" [ref=e342] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/journey/router.rb:31:in `serve''" [ref=e343] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e344]:
+          - link "✏️" [ref=e345] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:906
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/routing/route_set.rb:906:in `call''" [ref=e346] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e347]:
+          - link "✏️" [ref=e348] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/engine/lazy_route_set.rb:60
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/engine/lazy_route_set.rb:60:in `call''" [ref=e349] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e350]:
+          - link "✏️" [ref=e351] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:36
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:36:in `block in call''" [ref=e352] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e353]:
+          - link "✏️" [ref=e354] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:34
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `catch''" [ref=e355] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e356]:
+          - link "✏️" [ref=e357] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:34
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/warden-1.2.9/lib/warden/manager.rb:34:in `call''" [ref=e358] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e359]:
+          - link "✏️" [ref=e360] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/tempfile_reaper.rb:20
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/tempfile_reaper.rb:20:in `call''" [ref=e361] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e362]:
+          - link "✏️" [ref=e363] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/etag.rb:29
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/etag.rb:29:in `call''" [ref=e364] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e365]:
+          - link "✏️" [ref=e366] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/conditional_get.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/conditional_get.rb:31:in `call''" [ref=e367] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e368]:
+          - link "✏️" [ref=e369] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/head.rb:15
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/head.rb:15:in `call''" [ref=e370] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e371]:
+          - link "✏️" [ref=e372] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/http/content_security_policy.rb:38
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/http/content_security_policy.rb:38:in `call''" [ref=e373] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e374]:
+          - link "✏️" [ref=e375] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-session-2.1.2/lib/rack/session/abstract/id.rb:274
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-session-2.1.2/lib/rack/session/abstract/id.rb:274:in `context''" [ref=e376] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e377]:
+          - link "✏️" [ref=e378] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-session-2.1.2/lib/rack/session/abstract/id.rb:268
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-session-2.1.2/lib/rack/session/abstract/id.rb:268:in `call''" [ref=e379] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e380]:
+          - link "✏️" [ref=e381] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/cookies.rb:708
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/cookies.rb:708:in `call''" [ref=e382] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e383]:
+          - link "✏️" [ref=e384] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/migration.rb:671
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activerecord-8.1.3/lib/active_record/migration.rb:671:in `call''" [ref=e385] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e386]:
+          - link "✏️" [ref=e387] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/callbacks.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/callbacks.rb:31:in `block in call''" [ref=e388] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e389]:
+          - link "✏️" [ref=e390] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:101
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/callbacks.rb:101:in `run_callbacks''" [ref=e391] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e392]:
+          - link "✏️" [ref=e393] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/callbacks.rb:30
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/callbacks.rb:30:in `call''" [ref=e394] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e395]:
+          - link "✏️" [ref=e396] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/executor.rb:20
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/executor.rb:20:in `call''" [ref=e397] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e398]:
+          - link "✏️" [ref=e399] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/actionable_exceptions.rb:18
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call''" [ref=e400] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e401]:
+          - link "✏️" [ref=e402] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/debug_exceptions.rb:31
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call''" [ref=e403] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e404]:
+          - link "✏️" [ref=e405] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:132
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:132:in `call_app''" [ref=e406] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e407]:
+          - link "✏️" [ref=e408] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:28
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:28:in `block in call''" [ref=e409] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e410]:
+          - link "✏️" [ref=e411] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:17
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:17:in `catch''" [ref=e412] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e413]:
+          - link "✏️" [ref=e414] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:17
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/web-console-4.3.0/lib/web_console/middleware.rb:17:in `call''" [ref=e415] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e416]:
+          - link "✏️" [ref=e417] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/show_exceptions.rb:32
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/show_exceptions.rb:32:in `call''" [ref=e418] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e419]:
+          - link "✏️" [ref=e420] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/rack/logger.rb:41
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/rack/logger.rb:41:in `call_app''" [ref=e421] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e422]:
+          - link "✏️" [ref=e423] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/rack/logger.rb:29
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/rack/logger.rb:29:in `call''" [ref=e424] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e425]:
+          - link "✏️" [ref=e426] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/quiet_assets.rb:11
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/quiet_assets.rb:11:in `call''" [ref=e427] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e428]:
+          - link "✏️" [ref=e429] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/remote_ip.rb:98
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/remote_ip.rb:98:in `call''" [ref=e430] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e431]:
+          - link "✏️" [ref=e432] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/request_id.rb:34
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/request_id.rb:34:in `call''" [ref=e433] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e434]:
+          - link "✏️" [ref=e435] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/method_override.rb:28
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/method_override.rb:28:in `call''" [ref=e436] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e437]:
+          - link "✏️" [ref=e438] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/runtime.rb:24
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/runtime.rb:24:in `call''" [ref=e439] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e440]:
+          - link "✏️" [ref=e441] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/cache/strategy/local_cache_middleware.rb:30
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/activesupport-8.1.3/lib/active_support/cache/strategy/local_cache_middleware.rb:30:in `call''" [ref=e442] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e443]:
+          - link "✏️" [ref=e444] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:61
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:61:in `block in call''" [ref=e445] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e446]:
+          - link "✏️" [ref=e447] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:26
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events''" [ref=e448] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e449]:
+          - link "✏️" [ref=e450] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:60
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/server_timing.rb:60:in `call''" [ref=e451] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e452]:
+          - link "✏️" [ref=e453] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/executor.rb:20
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/executor.rb:20:in `call''" [ref=e454] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e455]:
+          - link "✏️" [ref=e456] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/server.rb:37
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/propshaft-1.3.2/lib/propshaft/server.rb:37:in `call''" [ref=e457] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e458]:
+          - link "✏️" [ref=e459] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/static.rb:27
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/static.rb:27:in `call''" [ref=e460] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e461]:
+          - link "✏️" [ref=e462] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/sendfile.rb:131
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/rack-3.2.6/lib/rack/sendfile.rb:131:in `call''" [ref=e463] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e464]:
+          - link "✏️" [ref=e465] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/host_authorization.rb:143
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.1.3/lib/action_dispatch/middleware/host_authorization.rb:143:in `call''" [ref=e466] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e467]:
+          - link "✏️" [ref=e468] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/engine.rb:534
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.1.3/lib/rails/engine.rb:534:in `call''" [ref=e469] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e470]:
+          - link "✏️" [ref=e471] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/configuration.rb:305
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/configuration.rb:305:in `call''" [ref=e472] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e473]:
+          - link "✏️" [ref=e474] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/response.rb:79
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/response.rb:79:in `block in handle_request''" [ref=e475] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e476]:
+          - link "✏️" [ref=e477] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/thread_pool.rb:434
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/thread_pool.rb:434:in `with_force_shutdown''" [ref=e478] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e479]:
+          - link "✏️" [ref=e480] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/response.rb:78
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/response.rb:78:in `handle_request''" [ref=e481] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e482]:
+          - link "✏️" [ref=e483] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/server.rb:508
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/server.rb:508:in `process_client''" [ref=e484] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e485]:
+          - link "✏️" [ref=e486] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/server.rb:263
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/server.rb:263:in `block in run''" [ref=e487] [cursor=pointer]':
+            - /url: "#"
+        - generic [ref=e488]:
+          - link "✏️" [ref=e489] [cursor=pointer]:
+            - /url: vscode://file//Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/thread_pool.rb:246
+          - 'link "/Users/andrius/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/puma-8.0.0/lib/puma/thread_pool.rb:246:in `block in spawn_thread''" [ref=e490] [cursor=pointer]':
+            - /url: "#"
+    - heading "Request" [level=2] [ref=e491]
+    - paragraph [ref=e492]: "Parameters:"
+    - generic [ref=e493]: None
+    - link "Toggle session dump" [ref=e496] [cursor=pointer]:
+      - /url: "#"
+    - link "Toggle env dump" [ref=e499] [cursor=pointer]:
+      - /url: "#"
+    - heading "Response" [level=2] [ref=e500]
+    - paragraph [ref=e501]: "Headers:"
+    - generic [ref=e502]: None
+  - generic [ref=e503]:
+    - generic [ref=e505]:
+      - generic "close" [ref=e507] [cursor=pointer]: ×
+      - generic [ref=e509]: ">>"
+    - textbox [ref=e511]

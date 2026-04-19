@@ -1,0 +1,30 @@
+.page {
+  padding: 48px var(--pad) 80px;
+  max-width: 1100px;
+}
+
+.page-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--rule-strong);
+  margin-bottom: 40px;
+  gap: 20px;
+}
+.page-head h1 {
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: clamp(40px, 6vw, 88px);
+  line-height: 0.9;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.page-head .meta {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  text-align: right;
+}

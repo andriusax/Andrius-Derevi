@@ -1,0 +1,43 @@
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px 24px;
+}
+.store-item { display: flex; flex-direction: column; gap: 10px; cursor: pointer; }
+.store-cover {
+  aspect-ratio: 1;
+  border: 1px solid var(--rule-strong);
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+.store-cover::before {
+  content: ''; position: absolute; inset: 0;
+  background: repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0 2px, transparent 2px 12px);
+}
+.store-cover .ph-label {
+  position: absolute; top: 12px; left: 12px;
+  font-family: var(--f-mono); font-size: 9px;
+  color: var(--ink-dim);
+  letter-spacing: 0.14em; text-transform: uppercase;
+  border: 1px solid var(--rule-strong);
+  padding: 4px 8px;
+}
+.store-cover .badge {
+  position: absolute; top: 12px; right: 12px;
+  font-family: var(--f-mono); font-size: 9px;
+  color: var(--ember-bright);
+  letter-spacing: 0.14em; text-transform: uppercase;
+}
+.store-meta {
+  display: flex; justify-content: space-between;
+  font-family: var(--f-mono); font-size: 11px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+}
+.store-title {
+  font-family: var(--f-display);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.store-price { color: var(--ember-bright); }

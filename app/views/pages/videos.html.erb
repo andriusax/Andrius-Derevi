@@ -1,0 +1,28 @@
+<% videos = [
+  { id: "VP1am9q0Ijo", title: "12 Tribes of Mars" },
+  { id: "uDQpjmn6XtA", title: "Live Session" },
+  { id: "2HAZ-BsP6mQ", title: "Solo Performance" },
+] %>
+
+<div class="page">
+  <div class="page-head">
+    <h1>Videos</h1>
+  </div>
+
+  <div class="video-grid">
+    <% videos.each do |v| %>
+      <div class="video-item">
+        <div class="video-embed">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/<%= v[:id] %>"
+            title="<%= v[:title] %>"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+      </div>
+    <% end %>
+  </div>
+</div>
