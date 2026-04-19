@@ -9,6 +9,24 @@
 
 /* ========= SIDEBAR ========= */
 
+.nav-toggle {
+  display: none;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  box-shadow: none;
+}
+.nav-toggle:focus,
+.nav-toggle:active,
+.nav-toggle:focus-visible {
+  color: var(--ink);
+  background: var(--bg);
+  outline: none;
+}
+
 .sidebar {
   border-right: 1px solid var(--rule);
   padding: 28px 24px;

@@ -1,4 +1,9 @@
-<aside class="sidebar">
+<button class="nav-toggle" data-action="nav#toggle" data-nav-target="toggle" aria-label="Menu">
+  <i class="fa-solid fa-bars"></i>
+  <i class="fa-solid fa-xmark"></i>
+</button>
+
+<aside class="sidebar" data-nav-target="sidebar">
   <div class="brand">
     <span class="sur">Andrius</span>
     <span class="given">Dereviancenko</span>
@@ -16,7 +21,7 @@
       { id: "contact",      label: "Contact",       path: contact_path, },
     ] %>
     <% nav_items.each do |item| %>
-      <%= link_to item[:path], class: "#{current_page?(item[:path]) ? 'active' : ''}" do %>
+      <%= link_to item[:path], class: "#{current_page?(item[:path]) ? 'active' : ''}", data: { action: "nav#toggle" } do %>
         <span class="idx"><%= item[:num] %></span><%= item[:label] %>
       <% end %>
     <% end %>
