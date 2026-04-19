@@ -1,0 +1,23 @@
+<div class="home-block home-block--<%= block.image_size %> home-block--<%= block.image_position %>">
+  <% if block.image.attached? %>
+    <div class="home-block-image">
+      <%= image_tag block.image, alt: block.title %>
+    </div>
+  <% end %>
+
+  <% if block.title.present? || block.subtitle.present? || block.body.present? %>
+    <div class="home-block-text">
+      <% if block.subtitle.present? %>
+        <p class="home-block-subtitle mono"><%= block.subtitle %></p>
+      <% end %>
+      <% if block.title.present? %>
+        <h2 class="home-block-title"><%= block.title %></h2>
+      <% end %>
+      <% if block.body.present? %>
+        <div class="home-block-body">
+          <%= simple_format block.body %>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+</div>

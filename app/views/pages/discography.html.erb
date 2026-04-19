@@ -8,7 +8,9 @@
     <% @releases.each_with_index do |r, i| %>
       <div class="disc-item">
         <div class="disc-cover">
-          <% if r.image.present? %>
+          <% if r.cover_image.attached? %>
+            <%= image_tag r.cover_image, alt: r.title %>
+          <% elsif r.image.present? %>
             <%= image_tag r.image, alt: r.title %>
           <% else %>
             <div class="fill <%= r.fill %>"></div>

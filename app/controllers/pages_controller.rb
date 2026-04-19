@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
-  def home; end
+  def home
+    @carousel_images = CarouselImage.active
+    @home_blocks = HomeBlock.published
+  end
   def bio; end
   def lessons; end
   def contact; end

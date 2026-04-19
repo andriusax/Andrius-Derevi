@@ -7,6 +7,10 @@ class Video < ApplicationRecord
     %w[id title youtube_id position created_at updated_at]
   end
 
+  def self.ransackable_associations(auth_object = nil)
+    []
+  end
+
   private
 
   def extract_youtube_id

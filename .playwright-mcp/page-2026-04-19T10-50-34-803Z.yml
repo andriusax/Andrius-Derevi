@@ -1,0 +1,73 @@
+- generic [ref=e2]:
+  - button "Menu" [ref=e3] [cursor=pointer]:
+    - generic [ref=e4]: 
+    - text: 
+  - complementary [ref=e5]:
+    - generic [ref=e6]: Andrius Dereviancenko
+    - navigation [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - text: Home
+      - link "Bio" [ref=e9] [cursor=pointer]:
+        - /url: /bio
+        - text: Bio
+      - link "Live" [ref=e10] [cursor=pointer]:
+        - /url: /live
+        - text: Live
+      - link "Videos" [ref=e11] [cursor=pointer]:
+        - /url: /videos
+        - text: Videos
+      - link "Discography" [ref=e12] [cursor=pointer]:
+        - /url: /discography
+        - text: Discography
+      - link "Lessons" [ref=e13] [cursor=pointer]:
+        - /url: /lessons
+        - text: Lessons
+      - link "Store" [ref=e14] [cursor=pointer]:
+        - /url: /store
+        - text: Store
+      - link "Contact" [ref=e15] [cursor=pointer]:
+        - /url: /contact
+        - text: Contact
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Current Release
+        - generic [ref=e19]: Hidden Sun
+        - generic [ref=e20]: 12 Tribes of Mars · 2026
+      - generic [ref=e21]:
+        - link "" [ref=e22] [cursor=pointer]:
+          - /url: https://www.instagram.com/derevi89/
+          - generic [ref=e23]: 
+        - link "" [ref=e24] [cursor=pointer]:
+          - /url: https://12tribesofmars.bandcamp.com/album/hidden-sun
+          - generic [ref=e25]: 
+        - link "" [ref=e26] [cursor=pointer]:
+          - /url: https://linktr.ee/andriusmusic
+          - generic [ref=e27]: 
+        - link "" [ref=e28] [cursor=pointer]:
+          - /url: https://www.youtube.com/@andriusdereviancenko7791
+          - generic [ref=e29]: 
+  - main [ref=e30]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img "Andrius Dereviancenko" [ref=e37]
+          - img "Andrius Dereviancenko" [ref=e39]
+          - img "Andrius Dereviancenko" [ref=e41]
+        - generic [ref=e42]:
+          - button "Slide 1" [ref=e43] [cursor=pointer]
+          - button "Slide 2" [ref=e44] [cursor=pointer]
+          - button "Slide 3" [ref=e45] [cursor=pointer]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - link "Hidden Sun — 12 Tribes of Mars" [ref=e48] [cursor=pointer]:
+            - /url: https://ffm.to/hidden_sun
+            - img "Hidden Sun — 12 Tribes of Mars" [ref=e49]
+          - generic [ref=e50]:
+            - generic [ref=e51]: 12 TRIBES OF MARS
+            - generic [ref=e52]: LP · 2026
+        - generic [ref=e53]:
+          - generic [ref=e54]: New Record · 12 Tribes of Mars
+          - heading "Hidden Sun" [level=1] [ref=e55]:
+            - text: Hidden
+            - emphasis [ref=e56]: Sun
