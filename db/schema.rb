@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2026_04_19_084328) do
+ActiveRecord::Schema[8.1].define(version: 2026_04_19_102513) do
   create_table "active_admin_comments", force: :cascade do |t|
     t.integer "author_id"
     t.string "author_type"
@@ -70,5 +70,13 @@ ActiveRecord::Schema[8.1].define(version: 2026_04_19_084328) do
     t.string "ticket_url"
     t.datetime "updated_at", null: false
     t.string "venue"
+  end
+
+  create_table "videos", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.integer "position"
+    t.string "title"
+    t.datetime "updated_at", null: false
+    t.string "youtube_id"
   end
 end

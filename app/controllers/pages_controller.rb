@@ -3,7 +3,9 @@ class PagesController < ApplicationController
   def bio; end
   def lessons; end
   def contact; end
-  def videos; end
+  def videos
+    @videos = Video.all
+  end
 
   def live
     @upcoming = Show.upcoming
