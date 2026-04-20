@@ -1,5 +1,5 @@
 ARG APEXWEAVE_STACK=ruby:3.3
-FROM registry.apexweaveapp.com/apexweave-stack-${APEXWEAVE_STACK}
+FROM registry.apexweaveapp.com:5000/apexweave-stack-${APEXWEAVE_STACK}
 COPY Gemfile* ./
 RUN sh /opt/apexweave/build.sh
 COPY . .
