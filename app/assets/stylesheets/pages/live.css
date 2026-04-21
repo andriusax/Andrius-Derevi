@@ -3,7 +3,7 @@
   flex-direction: column;
   border-top: 1px solid var(--rule-strong);
 }
-.live-row {
+.live-row, a.live-row {
   display: grid;
   grid-template-columns: 120px 1fr 1fr 100px 120px;
   gap: 20px;
@@ -12,6 +12,8 @@
   align-items: center;
   transition: background 0.15s, padding 0.15s;
   cursor: pointer;
+  color: var(--ink);
+  text-decoration: none;
 }
 .live-row:hover { background: var(--bg-raised); padding-left: 16px; }
 .live-row .date {
@@ -63,3 +65,12 @@
   text-decoration: none;
 }
 .live-row:hover .ticket { background: var(--ember); border-color: var(--ember); color: #fff; }
+.live-row-link { cursor: pointer; color: inherit; text-decoration: none; }
+.live-row-link .date,
+.live-row-link .venue,
+.live-row-link .city,
+.live-row-link .status { color: inherit; }
+.live-row-link .date .month { color: var(--ink-faint); }
+.live-row-link .city { color: var(--ink-dim); }
+.live-row-link .status { color: var(--ink-dim); }
+.live-row-link .status.sold-out { color: var(--ember-bright); }

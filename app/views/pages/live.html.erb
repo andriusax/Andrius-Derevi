@@ -9,7 +9,11 @@
   <% if @upcoming.any? %>
     <div class="live-list">
       <% @upcoming.each do |show| %>
-        <div class="live-row">
+        <% if show.ticket_url.present? %>
+          <a href="<%= show.ticket_url %>" target="_blank" rel="noopener" class="live-row live-row-link">
+        <% else %>
+          <div class="live-row">
+        <% end %>
           <div class="date">
             <%= show.performed_on&.day %>
             <span class="month"><%= show.performed_on&.strftime("%b") %> · <%= show.performed_on&.year %></span>
@@ -24,11 +28,11 @@
           <div class="status <%= show.sold_out? ? 'sold-out' : '' %>"><%= show.status %></div>
           <% if show.ticket_url.present? %>
             <% ticket_label = show.sold_out? ? "Waitlist" : "Visit site ↗" %>
-            <a href="<%= show.ticket_url %>" target="_blank" rel="noopener" class="ticket"><%= ticket_label %></a>
+            <span class="ticket"><%= ticket_label %></span>
           <% else %>
             <div class="ticket" style="visibility: hidden;"></div>
           <% end %>
-        </div>
+        <% if show.ticket_url.present? %></a><% else %></div><% end %>
       <% end %>
     </div>
   <% else %>
@@ -40,7 +44,11 @@
       <div style="font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 16px;">Past Shows</div>
       <div class="live-list" style="opacity: 0.5;">
         <% @past.each do |show| %>
-          <div class="live-row" style="cursor: default;">
+          <% if show.ticket_url.present? %>
+            <a href="<%= show.ticket_url %>" target="_blank" rel="noopener" class="live-row" style="cursor: pointer;">
+          <% else %>
+            <div class="live-row" style="cursor: default;">
+          <% end %>
             <div class="date">
               <%= show.performed_on&.day %>
               <span class="month"><%= show.performed_on&.strftime("%b") %> · <%= show.performed_on&.year %></span>
@@ -54,11 +62,11 @@
             <div class="city"><%= show.city %></div>
             <div class="status"><%= show.status %></div>
             <% if show.ticket_url.present? %>
-              <a href="<%= show.ticket_url %>" target="_blank" rel="noopener" class="ticket" style="color: var(--ink-faint); border-color: var(--rule);">Visit site ↗</a>
+              <span class="ticket" style="color: var(--ink-faint); border-color: var(--rule);">Visit site ↗</span>
             <% else %>
               <div class="ticket" style="visibility: hidden;"></div>
             <% end %>
-          </div>
+          <% if show.ticket_url.present? %></a><% else %></div><% end %>
         <% end %>
       </div>
     </div>

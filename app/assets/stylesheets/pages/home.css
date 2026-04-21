@@ -10,16 +10,13 @@
   overflow: hidden;
   height: 50vh;
   min-height: 640px;
-  background: #000;
+  background: var(--bg);
 }
 
 .home-hero::before {
   content: '';
   position: absolute; inset: 0;
-  background:
-    radial-gradient(circle at 70% 40%, rgba(20, 80, 40, 0.35), transparent 55%),
-    radial-gradient(circle at 20% 80%, rgba(120, 20, 20, 0.18), transparent 55%),
-    linear-gradient(180deg, #050a06 0%, #0a1208 40%, #0d1a0c 70%, #050a06 100%);
+  background: transparent;
   z-index: 1;
 }
 
@@ -77,8 +74,8 @@
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 40px 80px rgba(0,0,0,0.5), 0 8px 20px rgba(0,0,0,0.4);
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 40px 80px rgba(0,0,0,0.45), 0 8px 20px rgba(0,0,0,0.3);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -89,7 +86,7 @@
 
 .hero-cover-link:hover img {
   transform: translateY(-3px);
-  box-shadow: 0 50px 100px rgba(0,0,0,0.6), 0 12px 28px rgba(0,0,0,0.5);
+  box-shadow: 0 50px 100px rgba(0,0,0,0.55), 0 12px 28px rgba(0,0,0,0.38);
 }
 
 .hero-carousel {
