@@ -64,7 +64,7 @@
   transition: background 0.15s;
 }
 .contact-form button[type="submit"]:hover,
-.newsletter-form button:hover { background: var(--ember-bright); }
+.newsletter-form button:hover { background: var(--ember-bright) !important; background-image: none !important; }
 
 /* Success message */
 .contact-success {

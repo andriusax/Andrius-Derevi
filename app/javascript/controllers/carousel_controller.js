@@ -5,7 +5,7 @@ export default class extends Controller {
 
   connect() {
     this.index = 0
-    this.timer = setInterval(() => this.advance(), 4500)
+    this.timer = setInterval(() => this.advance(), 7000)
   }
 
   disconnect() {
