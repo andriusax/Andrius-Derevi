@@ -60,5 +60,6 @@
   border: 1px solid var(--rule-strong);
   padding: 8px 14px;
   transition: all 0.15s;
+  text-decoration: none;
 }
 .live-row:hover .ticket { background: var(--ember); border-color: var(--ember); color: #fff; }
