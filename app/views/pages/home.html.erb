@@ -1,4 +1,10 @@
 <div class="home">
+  <% if @home_blocks.any? %>
+    <div class="home-content">
+      <%= render partial: "pages/home_block", collection: @home_blocks, as: :block %>
+    </div>
+  <% end %>
+
   <div class="home-hero" data-controller="carousel">
     <div class="hero-grain"></div>
 
@@ -21,10 +27,4 @@
       </div>
     </div>
   </div>
-
-  <% if @home_blocks.any? %>
-    <div class="home-content">
-      <%= render partial: "pages/home_block", collection: @home_blocks, as: :block %>
-    </div>
-  <% end %>
 </div>
