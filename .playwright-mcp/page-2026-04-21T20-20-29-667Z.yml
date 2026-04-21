@@ -1,0 +1,45 @@
+- generic [ref=e2]:
+  - text:  
+  - complementary [ref=e3]:
+    - link "Andrius Dereviancenko" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: Andrius
+      - generic [ref=e6]: Dereviancenko
+    - navigation [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Bio" [ref=e9] [cursor=pointer]:
+        - /url: /bio
+      - link "Live" [ref=e10] [cursor=pointer]:
+        - /url: /live
+      - link "Videos" [ref=e11] [cursor=pointer]:
+        - /url: /videos
+      - link "Discography" [ref=e12] [cursor=pointer]:
+        - /url: /discography
+      - link "Lessons" [ref=e13] [cursor=pointer]:
+        - /url: /lessons
+      - link "Store" [ref=e14] [cursor=pointer]:
+        - /url: /store
+      - link "Contact" [ref=e15] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e16]:
+      - link "" [ref=e17] [cursor=pointer]:
+        - /url: https://www.instagram.com/derevi89/
+        - generic [ref=e18]: 
+      - link "" [ref=e19] [cursor=pointer]:
+        - /url: https://12tribesofmars.bandcamp.com/album/hidden-sun
+        - generic [ref=e20]: 
+      - link "" [ref=e21] [cursor=pointer]:
+        - /url: https://linktr.ee/andriusmusic
+        - generic [ref=e22]: 
+      - link "" [ref=e23] [cursor=pointer]:
+        - /url: https://www.youtube.com/@andriusdereviancenko7791
+        - generic [ref=e24]: 
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Lessons" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Under construction
+      - generic [ref=e30]:
+        - text: Made by
+        - link "A D" [ref=e31] [cursor=pointer]:
+          - /url: https://www.instagram.com/derevi89/

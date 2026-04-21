@@ -43,7 +43,12 @@
     <div class="app" data-controller="theme nav" data-theme-target="app">
       <%= render "shared/sidebar" %>
       <main class="main">
-        <%= yield %>
+        <div class="main-content">
+          <%= yield %>
+        </div>
+        <footer class="site-footer">
+          <i class="fa-solid fa-globe"></i> by <a href="https://www.instagram.com/derevi89/" target="_blank" rel="noopener">AD</a>
+        </footer>
       </main>
     </div>
   </body>
