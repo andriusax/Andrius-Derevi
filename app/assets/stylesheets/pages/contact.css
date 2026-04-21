@@ -58,10 +58,13 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   border: none;
+  border-radius: 0 !important;
   outline: none;
   cursor: pointer;
   align-self: flex-start;
   transition: background 0.15s;
+  box-shadow: none !important;
+  text-shadow: none !important;
 }
 .contact-form button[type="submit"]:hover,
 .newsletter-form button:hover { background: var(--ember-bright) !important; background-image: none !important; }
