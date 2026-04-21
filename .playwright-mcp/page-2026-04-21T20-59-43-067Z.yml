@@ -1,0 +1,146 @@
+- generic [ref=e2]:
+  - button "Menu" [ref=e3] [cursor=pointer]:
+    - generic [ref=e4]: 
+    - text: 
+  - complementary [ref=e5]:
+    - link "Andrius Dereviancenko" [ref=e6] [cursor=pointer]:
+      - /url: /
+    - navigation [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Bio" [ref=e9] [cursor=pointer]:
+        - /url: /bio
+      - link "Live" [ref=e10] [cursor=pointer]:
+        - /url: /live
+      - link "Videos" [ref=e11] [cursor=pointer]:
+        - /url: /videos
+      - link "Discography" [ref=e12] [cursor=pointer]:
+        - /url: /discography
+      - link "Lessons" [ref=e13] [cursor=pointer]:
+        - /url: /lessons
+      - link "Store" [ref=e14] [cursor=pointer]:
+        - /url: /store
+      - link "Contact" [ref=e15] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e16]:
+      - link "" [ref=e17] [cursor=pointer]:
+        - /url: https://www.instagram.com/derevi89/
+        - generic [ref=e18]: 
+      - link "" [ref=e19] [cursor=pointer]:
+        - /url: https://12tribesofmars.bandcamp.com/album/hidden-sun
+        - generic [ref=e20]: 
+      - link "" [ref=e21] [cursor=pointer]:
+        - /url: https://linktr.ee/andriusmusic
+        - generic [ref=e22]: 
+      - link "" [ref=e23] [cursor=pointer]:
+        - /url: https://www.youtube.com/@andriusdereviancenko7791
+        - generic [ref=e24]: 
+  - main [ref=e25]:
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Live" [level=1] [ref=e29]
+        - generic [ref=e30]:
+          - text: 4 Upcoming · Spring / Summer 2026
+          - text: Updated weekly
+      - generic [ref=e31]:
+        - link "26 Apr · 2026 Solo Pleinkamer Visit site ↗" [ref=e32] [cursor=pointer]:
+          - /url: https://www.facebook.com/events/918309494146161
+          - generic [ref=e33]:
+            - text: "26"
+            - generic [ref=e34]: Apr · 2026
+          - generic [ref=e35]:
+            - generic [ref=e36]: Solo
+            - text: Pleinkamer
+          - generic [ref=e37]: Visit site ↗
+        - link "3 May · 2026 12 Tribes of Mars Ruigoord Visit site ↗" [ref=e38] [cursor=pointer]:
+          - /url: https://ruigoord.nl/evenement/maanzin-4/
+          - generic [ref=e39]:
+            - text: "3"
+            - generic [ref=e40]: May · 2026
+          - generic [ref=e41]:
+            - generic [ref=e42]: 12 Tribes of Mars
+            - text: Ruigoord
+          - generic [ref=e43]: Visit site ↗
+        - generic [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]:
+            - text: "24"
+            - generic [ref=e46]: May · 2026
+          - generic [ref=e47]:
+            - generic [ref=e48]: Einam Ensemble
+            - text: Zaal 100
+        - generic [ref=e50] [cursor=pointer]:
+          - text: "13"
+          - generic [ref=e51]: Jun · 2026
+      - generic [ref=e52]:
+        - generic [ref=e53]: Past Shows
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - text: "17"
+              - generic [ref=e57]: Apr · 2026
+            - generic [ref=e58]:
+              - generic [ref=e59]: 12 Tribes of Mars
+              - text: Nieuwe Anita
+          - generic [ref=e60]:
+            - generic [ref=e61]:
+              - text: "4"
+              - generic [ref=e62]: Apr · 2026
+            - generic [ref=e63]:
+              - generic [ref=e64]: 12 Tribes of Mars
+              - text: Bimhuis
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - text: "22"
+              - generic [ref=e67]: Mar · 2026
+            - generic [ref=e68]:
+              - generic [ref=e69]: 12 Tribes of Mars
+              - text: Pleinkamer
+          - link "14 Mar · 2026 Berima Amo De Roma Visit site ↗" [ref=e70] [cursor=pointer]:
+            - /url: https://www.deroma.be/nl/event/berima-amo
+            - generic [ref=e71]:
+              - text: "14"
+              - generic [ref=e72]: Mar · 2026
+            - generic [ref=e73]:
+              - generic [ref=e74]: Berima Amo
+              - text: De Roma
+            - generic [ref=e75]: Visit site ↗
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - text: "13"
+              - generic [ref=e78]: Mar · 2026
+            - generic [ref=e79]:
+              - generic [ref=e80]: Owl Man
+              - text: Zaal 100
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - text: "13"
+              - generic [ref=e83]: Mar · 2026
+            - generic [ref=e84]:
+              - generic [ref=e85]: Solo
+              - text: Tafel 89
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - text: "8"
+              - generic [ref=e88]: Mar · 2026
+            - generic [ref=e89]:
+              - generic [ref=e90]: Solo
+              - text: Zaal 100
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - text: "5"
+              - generic [ref=e93]: Feb · 2026
+            - generic [ref=e94]:
+              - generic [ref=e95]: Litterjug
+              - text: Improv Fest
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - text: "18"
+              - generic [ref=e98]: Jan · 2026
+            - generic [ref=e99]:
+              - generic [ref=e100]: Foon
+              - text: Splendor
+    - generic [ref=e101]:
+      - generic [ref=e102]: 
+      - text: by
+      - link "AD" [ref=e103] [cursor=pointer]:
+        - /url: https://www.instagram.com/derevi89/

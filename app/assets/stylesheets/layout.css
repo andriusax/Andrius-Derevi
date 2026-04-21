@@ -19,11 +19,13 @@
   outline: none;
   box-shadow: none;
 }
+.app .nav-toggle:hover,
 .nav-toggle:focus,
 .nav-toggle:active,
 .nav-toggle:focus-visible {
   color: var(--ink);
   background: var(--bg);
+  background-image: none;
   outline: none;
 }
 
