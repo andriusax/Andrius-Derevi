@@ -25,9 +25,9 @@
   --rule-light: #c9bfa8;
   --rule-strong-light: #8b7a66;
 
-  --f-display: 'Space Grotesk', 'Helvetica Neue', sans-serif;
-  --f-body: 'Inter', 'Helvetica Neue', sans-serif;
-  --f-mono: 'JetBrains Mono', 'Courier New', monospace;
+  --f-display: 'DM Sans', 'Helvetica Neue', sans-serif;
+  --f-body: 'DM Sans', 'Helvetica Neue', sans-serif;
+  --f-mono: 'DM Mono', 'Courier New', monospace;
 
   --sidebar-w: 240px;
   --pad: 32px;
