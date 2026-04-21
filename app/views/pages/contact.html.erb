@@ -1,8 +1,9 @@
-<div class="page" data-controller="contact">
+<div class="page contact-page" data-controller="contact">
   <div class="page-head">
     <h1>Contact</h1>
   </div>
 
+  <div class="contact-layout">
   <div class="contact-simple">
     <div class="contact-success" data-contact-target="success" style="display:none;">
       <div class="success-tag">✓ Sent</div>
@@ -36,5 +37,10 @@
         <button type="submit">Subscribe</button>
       </form>
     </div>
+  </div>
+  <div class="contact-photo-wrap">
+    <%= image_tag "contact-photo.jpg", alt: "Andrius Dereviancenko", class: "contact-photo" %>
+    <div class="contact-photo-credit">Photo by Ki</div>
+  </div>
   </div>
 </div>

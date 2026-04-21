@@ -1,6 +1,7 @@
 .home {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 0;
   position: relative;
   min-height: 100vh;
 }
@@ -45,6 +46,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.hero-credit {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding: 6px 40px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 5;
 }
 
 .home-content {

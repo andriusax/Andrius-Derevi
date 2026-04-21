@@ -136,4 +136,31 @@
   padding: 0;
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-content {
+  flex: 1;
+}
+
+.site-footer {
+  font-family: var(--f-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  padding: 20px 40px;
+  border-top: 1px solid var(--rule);
+  text-align: left;
+}
+
+.site-footer a {
+  color: var(--ink-dim);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--ink);
 }
