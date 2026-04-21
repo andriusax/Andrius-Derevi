@@ -13,7 +13,7 @@ class PagesController < ApplicationController
     message = params[:message].to_s.strip
 
     if name.present? && email.present? && message.present?
-      ContactMailer.contact_email(name: name, email: email, message: message).deliver_later
+      ContactMailer.contact_email(name: name, email: email, message: message).deliver_now
       render json: { ok: true }
     else
       render json: { ok: false, error: "All fields are required." }, status: :unprocessable_entity
