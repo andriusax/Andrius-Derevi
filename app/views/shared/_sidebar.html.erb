@@ -4,10 +4,10 @@
 </button>
 
 <aside class="sidebar" data-nav-target="sidebar">
-  <div class="brand">
+  <%= link_to root_path, class: "brand" do %>
     <span class="sur">Andrius</span>
     <span class="given">Dereviancenko</span>
-  </div>
+  <% end %>
 
   <nav class="nav">
     <% nav_items = [

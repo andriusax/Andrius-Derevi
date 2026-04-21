@@ -1,0 +1,155 @@
+- generic [ref=e2]:
+  - text:  
+  - complementary [ref=e3]:
+    - link "Andrius Dereviancenko" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - generic [ref=e5]: Andrius
+      - generic [ref=e6]: Dereviancenko
+    - navigation [ref=e7]:
+      - link "Home" [ref=e8] [cursor=pointer]:
+        - /url: /
+      - link "Bio" [ref=e9] [cursor=pointer]:
+        - /url: /bio
+      - link "Live" [ref=e10] [cursor=pointer]:
+        - /url: /live
+      - link "Videos" [ref=e11] [cursor=pointer]:
+        - /url: /videos
+      - link "Discography" [ref=e12] [cursor=pointer]:
+        - /url: /discography
+      - link "Lessons" [ref=e13] [cursor=pointer]:
+        - /url: /lessons
+      - link "Store" [ref=e14] [cursor=pointer]:
+        - /url: /store
+      - link "Contact" [ref=e15] [cursor=pointer]:
+        - /url: /contact
+    - generic [ref=e16]:
+      - link "" [ref=e17] [cursor=pointer]:
+        - /url: https://www.instagram.com/derevi89/
+        - generic [ref=e18]: 
+      - link "" [ref=e19] [cursor=pointer]:
+        - /url: https://12tribesofmars.bandcamp.com/album/hidden-sun
+        - generic [ref=e20]: 
+      - link "" [ref=e21] [cursor=pointer]:
+        - /url: https://linktr.ee/andriusmusic
+        - generic [ref=e22]: 
+      - link "" [ref=e23] [cursor=pointer]:
+        - /url: https://www.youtube.com/@andriusdereviancenko7791
+        - generic [ref=e24]: 
+  - main [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - heading "Live" [level=1] [ref=e28]
+        - generic [ref=e29]:
+          - text: 4 Upcoming · Spring / Summer 2026
+          - text: Updated weekly
+      - generic [ref=e30]:
+        - link "26 Apr · 2026 Solo Pleinkamer Amsterdam, NL Visit site ↗" [ref=e31] [cursor=pointer]:
+          - /url: https://www.facebook.com/events/918309494146161
+          - generic [ref=e32]:
+            - text: "26"
+            - generic [ref=e33]: Apr · 2026
+          - generic [ref=e34]:
+            - generic [ref=e35]: Solo
+            - text: Pleinkamer
+          - generic [ref=e36]: Amsterdam, NL
+          - generic [ref=e37]: Visit site ↗
+        - link "3 May · 2026 12 Tribes of Mars Ruigoord Amsterdam, NL Visit site ↗" [ref=e38] [cursor=pointer]:
+          - /url: https://ruigoord.nl/evenement/maanzin-4/
+          - generic [ref=e39]:
+            - text: "3"
+            - generic [ref=e40]: May · 2026
+          - generic [ref=e41]:
+            - generic [ref=e42]: 12 Tribes of Mars
+            - text: Ruigoord
+          - generic [ref=e43]: Amsterdam, NL
+          - generic [ref=e44]: Visit site ↗
+        - generic [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]:
+            - text: "24"
+            - generic [ref=e47]: May · 2026
+          - generic [ref=e48]:
+            - generic [ref=e49]: Einam Ensemble
+            - text: Zaal 100
+          - generic [ref=e50]: Amsterdam, NL
+        - generic [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - text: "13"
+            - generic [ref=e53]: Jun · 2026
+          - generic [ref=e54]: Lublin, PL
+      - generic [ref=e55]:
+        - generic [ref=e56]: Past Shows
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - text: "17"
+              - generic [ref=e60]: Apr · 2026
+            - generic [ref=e61]:
+              - generic [ref=e62]: 12 Tribes of Mars
+              - text: Nieuwe Anita
+            - generic [ref=e63]: Amsterdam, NL
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - text: "4"
+              - generic [ref=e66]: Apr · 2026
+            - generic [ref=e67]:
+              - generic [ref=e68]: 12 Tribes of Mars
+              - text: Bimhuis
+            - generic [ref=e69]: Amsterdam, NL
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - text: "22"
+              - generic [ref=e72]: Mar · 2026
+            - generic [ref=e73]:
+              - generic [ref=e74]: 12 Tribes of Mars
+              - text: Pleinkamer
+            - generic [ref=e75]: Amsterdam, NL
+          - link "14 Mar · 2026 Berima Amo De Roma Antwerp, BE Visit site ↗" [ref=e76] [cursor=pointer]:
+            - /url: https://www.deroma.be/nl/event/berima-amo
+            - generic [ref=e77]:
+              - text: "14"
+              - generic [ref=e78]: Mar · 2026
+            - generic [ref=e79]:
+              - generic [ref=e80]: Berima Amo
+              - text: De Roma
+            - generic [ref=e81]: Antwerp, BE
+            - generic [ref=e82]: Visit site ↗
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - text: "13"
+              - generic [ref=e85]: Mar · 2026
+            - generic [ref=e86]:
+              - generic [ref=e87]: Owl Man
+              - text: Zaal 100
+            - generic [ref=e88]: Amsterdam, NL
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - text: "13"
+              - generic [ref=e91]: Mar · 2026
+            - generic [ref=e92]:
+              - generic [ref=e93]: Solo
+              - text: Tafel 89
+            - generic [ref=e94]: Amsterdam, NL
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - text: "8"
+              - generic [ref=e97]: Mar · 2026
+            - generic [ref=e98]:
+              - generic [ref=e99]: Solo
+              - text: Zaal 100
+            - generic [ref=e100]: Amsterdam, NL
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - text: "5"
+              - generic [ref=e103]: Feb · 2026
+            - generic [ref=e104]:
+              - generic [ref=e105]: Litterjug
+              - text: Improv Fest
+            - generic [ref=e106]: Copenhagen, DK
+          - generic [ref=e107]:
+            - generic [ref=e108]:
+              - text: "18"
+              - generic [ref=e109]: Jan · 2026
+            - generic [ref=e110]:
+              - generic [ref=e111]: Foon
+              - text: Splendor
+            - generic [ref=e112]: Amsterdam, NL
