@@ -79,15 +79,19 @@
   }
 
   .sidebar .nav a {
+    display: inline-block;
     border-left: none;
-    padding-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 0;
+    margin-right: 0;
     font-size: 18px;
     justify-content: center;
   }
 
   .sidebar .nav a.active {
     border-left: none;
+    background: none;
   }
 
   .sidebar .sidebar-meta {
