@@ -1,3 +1,5 @@
+<% content_for :description, "Store of Andrius Dereviancenko, saxophonist and musician." %>
+
 <% if @merch_items.any?(&:stripe_button_id?) %>
   <% content_for :head do %>
     <script async src="https://js.stripe.com/v3/buy-button.js"></script>

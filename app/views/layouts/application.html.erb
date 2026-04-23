@@ -6,6 +6,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Andrius Dereviancenko">
     <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="<%= content_for(:description) || 'Andrius Dereviancenko — musician, saxophonist, teacher based in Amsterdam.' %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -17,7 +18,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <link rel="icon" href="/icon.png" type="image/png">
-    <link rel="icon" href="/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/icon.png">
 
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
