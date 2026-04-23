@@ -23,6 +23,13 @@
   padding-top: 8px;
 }
 
+.contact-intro {
+  font-size: 14px;
+  color: var(--ink-dim);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
 .contact-simple {
   max-width: 540px;
   padding: 16px 0;
