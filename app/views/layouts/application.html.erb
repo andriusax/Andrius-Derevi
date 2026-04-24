@@ -7,6 +7,28 @@
     <meta name="application-name" content="Andrius Dereviancenko">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="description" content="<%= content_for(:description) || 'Andrius Dereviancenko — musician, saxophonist, teacher based in Amsterdam.' %>">
+
+    <% page_title = content_for?(:title) ? content_for(:title) : "Andrius Dereviancenko" %>
+    <% page_description = content_for?(:description) ? content_for(:description) : "Andrius Dereviancenko — musician, saxophonist, teacher based in Amsterdam." %>
+    <% page_image = content_for?(:og_image) ? content_for(:og_image) : image_url("og-default.jpg") %>
+    <% page_url = request.original_url %>
+
+      <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Andrius Dereviancenko">
+    <meta property="og:title" content="<%= page_title %>">
+    <meta property="og:description" content="<%= page_description %>">
+    <meta property="og:url" content="<%= page_url %>">
+    <meta property="og:image" content="<%= page_image %>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= page_title %>">
+    <meta name="twitter:description" content="<%= page_description %>">
+    <meta name="twitter:image" content="<%= page_image %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
