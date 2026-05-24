@@ -38,6 +38,7 @@
 }
 
 .bio-body { display: flex; flex-direction: column; gap: 20px; }
+/* Use class="lede" to have text that is bigger */
 .bio-body .lede {
   font-family: var(--f-display);
   font-size: 24px;
